@@ -1,0 +1,26 @@
+{
+  "espana": {
+    "politica": [
+      "noticias/espana/politica/2025-12-17-Cerdán_denuncia_una_\"persecución_inquisi.html",
+      "noticias/espana/politica/2025-12-17-El_PSOE_considera_que_la_intervención_de.html"
+    ],
+    "economia": [
+      "noticias/espana/economia/2025-12-17-Santos_Cerdán_niega_en_el_Senado_que_sea.html",
+      "noticias/espana/economia/2025-12-17-El_Supremo_ejecuta_la_condena_de_García_.html"
+    ],
+    "deportes": [
+      "noticias/espana/deportes/2025-12-17-Nuevos_cambios_en_el_control_económico_d.html",
+      "noticias/espana/deportes/2025-12-17-Abucheos_a_Kiat_Lim_en_la_junta_del_Vale.html"
+    ]
+  },
+  "internacional": {
+    "economia": [
+      "noticias/internacional/economia/2025-12-17-Alleged_Bondi_gunman_charged_with_15_cou.html",
+      "noticias/internacional/economia/2025-12-17-'An_unspeakable_loss':_Funeral_takes_pla.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2025-12-17-Can_NBA_Cup's_surprise_finalists_make_a_.html",
+      "noticias/internacional/deportes/2025-12-17-Knicks_conquer_Cup,_laud_poise_under_'pr.html"
+    ]
+  }
+}
