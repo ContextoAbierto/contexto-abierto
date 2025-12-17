@@ -15,8 +15,8 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Ejecutar script de prueba
-        run: python scripts/generate_test_news.py
+      - name: Ejecutar script de noticias reales
+        run: python scripts/generate_real_news.py
 
       - name: Guardar cambios en el repositorio
         run: |
