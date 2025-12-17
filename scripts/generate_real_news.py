@@ -12,6 +12,9 @@ FEEDS = {
         ],
         "economia": [
             "https://www.eldiario.es/rss/"
+        ],
+        "deportes": [
+            "https://www.marca.com/rss/futbol/primera-division.xml"
         ]
     },
     "internacional": {
@@ -20,6 +23,9 @@ FEEDS = {
         ],
         "economia": [
             "http://feeds.bbci.co.uk/news/world/rss.xml"
+        ],
+        "deportes": [
+            "https://www.espn.com/espn/rss/news"
         ]
     }
 }
