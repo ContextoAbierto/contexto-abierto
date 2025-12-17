@@ -18,3 +18,10 @@ jobs:
       - name: Ejecutar script de prueba
         run: python scripts/generate_test_news.py
 
+      - name: Guardar cambios en el repositorio
+        run: |
+          git config user.name "contexto-abierto-bot"
+          git config user.email "redaccion.contextoabierto@gmail.com"
+          git add public/
+          git commit -m "Publicar noticia de prueba automática" || echo "No hay cambios"
+          git push
