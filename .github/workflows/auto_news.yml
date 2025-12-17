@@ -1,0 +1,11 @@
+name: Automatización Contexto Abierto
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probar automatización
+        run: echo "GitHub Actions funciona correctamente"
