@@ -5,84 +5,71 @@
     <title>Contexto Abierto - Noticias Automáticas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f8f8; }
-        header { background: #2c3e50; color: white; padding: 1em; text-align: center; }
-        nav { background: #34495e; display: flex; justify-content: center; flex-wrap: wrap; }
-        nav a { color: white; padding: 0.5em 1em; text-decoration: none; }
-        nav a:hover { background: #1abc9c; }
-        main { padding: 1em; }
-        h2 { border-bottom: 2px solid #ccc; padding-bottom: 0.3em; margin-top: 2em; }
-        ul { list-style: none; padding-left: 0; }
-        li { margin-bottom: 0.5em; }
-        a.noticia-link { text-decoration: none; color: #2c3e50; }
-        a.noticia-link:hover { color: #1abc9c; }
-        footer { background: #2c3e50; color: white; text-align: center; padding: 1em; margin-top: 2em; }
-        @media (max-width: 600px) {
-            nav { flex-direction: column; }
-        }
+        body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f8f8f8; }
+        header { background:#2c3e50; color:white; padding:1em; text-align:center; }
+        nav { background:#34495e; display:flex; justify-content:center; flex-wrap:wrap; }
+        nav a { color:white; padding:0.5em 1em; text-decoration:none; }
+        nav a:hover { background:#1abc9c; }
+        main { padding:1em; }
+        h2 { border-bottom:2px solid #ccc; padding-bottom:0.3em; margin-top:2em; }
+        ul { list-style:none; padding-left:0; }
+        li { margin-bottom:0.5em; }
+        a.noticia-link { text-decoration:none; color:#2c3e50; }
+        a.noticia-link:hover { color:#1abc9c; }
+        footer { background:#2c3e50; color:white; text-align:center; padding:1em; margin-top:2em; }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Contexto Abierto</h1>
-        <p>Noticias reales automáticas</p>
-    </header>
-    <nav>
-        <a href="#espana">España</a>
-        <a href="#internacional">Internacional</a>
-    </nav>
-    <main>
-        <section id="espana">
-            <h2>España</h2>
+<header>
+    <h1>Contexto Abierto</h1>
+    <p>Noticias reales automáticas</p>
+</header>
+<nav>
+    <a href="#espana">España</a>
+    <a href="#internacional">Internacional</a>
+</nav>
+<main>
+    <section id="espana">
+        <h2>España</h2>
+        <h3>Política</h3>
+        <ul id="espana-politica"></ul>
+        <h3>Economía</h3>
+        <ul id="espana-economia"></ul>
+        <h3>Deportes</h3>
+        <ul id="espana-deportes"></ul>
+    </section>
 
-            <h3>Política</h3>
-            <ul id="espana-politica"></ul>
+    <section id="internacional">
+        <h2>Internacional</h2>
+        <h3>Política</h3>
+        <ul id="internacional-politica"></ul>
+        <h3>Economía</h3>
+        <ul id="internacional-economia"></ul>
+        <h3>Deportes</h3>
+        <ul id="internacional-deportes"></ul>
+    </section>
+</main>
+<footer>
+    <p>© Contexto Abierto - Noticias automáticas</p>
+</footer>
 
-            <h3>Economía</h3>
-            <ul id="espana-economia"></ul>
-
-            <h3>Deportes</h3>
-            <ul id="espana-deportes"></ul>
-        </section>
-
-        <section id="internacional">
-            <h2>Internacional</h2>
-
-            <h3>Política</h3>
-            <ul id="internacional-politica"></ul>
-
-            <h3>Economía</h3>
-            <ul id="internacional-economia"></ul>
-
-            <h3>Deportes</h3>
-            <ul id="internacional-deportes"></ul>
-        </section>
-    </main>
-    <footer>
-        <p>© Contexto Abierto - Noticias automáticas</p>
-    </footer>
-
-    <script>
-        // Función para leer archivos HTML de noticias y añadir links
-        const SECCIONES = [
-            { id: "espana-politica", path: "noticias/espana/politica/" },
-            { id: "espana-economia", path: "noticias/espana/economia/" },
-            { id: "espana-deportes", path: "noticias/espana/deportes/" },
-            { id: "internacional-politica", path: "noticias/internacional/politica/" },
-            { id: "internacional-economia", path: "noticias/internacional/economia/" },
-            { id: "internacional-deportes", path: "noticias/internacional/deportes/" }
-        ];
-
-        SECCIONES.forEach(sec => {
-            fetch(sec.path)
-                .then(response => response.text())
-                .then(data => {
-                    // Parsear la lista de archivos si es servido por un servidor que muestra índice
-                    // Para GitHub Pages/Cloudflare Pages, se listarán manualmente
-                    // Aquí usamos una aproximación simple: lista los últimos 5 archivos
-                    // Necesitarás actualizar manualmente los enlaces o usar un script para generar un JSON con las noticias
-                }).catch(err => console.log(`No se pudo cargar ${sec.path}: ${err}`));
-        });
-    </script>
+<script>
+fetch('data/news_index.json')
+.then(res => res.json())
+.then(data => {
+    for (const section in data) {
+        for (const category in data[section]) {
+            const ul = document.getElementById(`${section}-${category}`);
+            data[section][category].forEach(link => {
+                const filename = link.split('/').pop();
+                const li = document.createElement('li');
+                li.innerHTML = `<a class="noticia-link" href="${link}" target="_blank">${filename.replace(/_/g,' ').replace('.html','')}</a>`;
+                ul.appendChild(li);
+            });
+        }
+    }
+})
+.catch(err => console.log('Error cargando noticias:', err));
+</script>
 </body>
 </html>
