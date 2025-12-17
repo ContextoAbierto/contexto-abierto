@@ -14,6 +14,9 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
+          
+      - name: Instalar dependencias
+        run: pip install feedparser
 
       - name: Ejecutar script de noticias reales
         run: python scripts/generate_real_news.py
