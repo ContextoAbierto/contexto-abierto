@@ -2,6 +2,7 @@ import feedparser
 from datetime import datetime
 import os
 
+# Fuentes RSS: España e Internacional
 FEEDS = {
     "espana": [
         "https://www.europapress.es/rss/rss.aspx",
@@ -13,11 +14,28 @@ FEEDS = {
     ]
 }
 
-def create_article(section, title, summary, link):
+def create_article(section, title, summary, link, content_list=None):
+    """
+    Crea un archivo HTML con la noticia.
+    - section: 'espana' o 'internacional'
+    - title: título de la noticia
+    - summary: resumen de la noticia
+    - link: link a la fuente original
+    - content_list: lista opcional de textos adicionales para alargar la noticia
+    """
     fecha = datetime.now().strftime("%Y-%m-%d")
     ruta = f"public/noticias/{section}"
     os.makedirs(ruta, exist_ok=True)
-    archivo = f"{ruta}/{fecha}-{title[:40].replace(' ', '_')}.html"
+    archivo = f"{ruta}/{fecha}-{title[:40].replace(' ', '_').replace('/', '_')}.html"
+
+    # Generar texto completo
+    summary_text = summary or ""
+    if content_list:
+        for c in content_list:
+            summary_text += " " + c
+
+    if len(summary_text) < 400:
+        summary_text += " [...]"  # indicar que es resumen corto
 
     contenido = f"""
 <!DOCTYPE html>
@@ -28,10 +46,13 @@ def create_article(section, title, summary, link):
 </head>
 <body>
   <h1>{title}</h1>
+
   <h2>Noticia</h2>
-  <p>{summary[:600]}</p>
-  <h2>Análisis</h2>
-  <p>Desde una perspectiva centrista, esta noticia presenta elementos positivos y desafíos que requieren equilibrio institucional.</p>
+  <p>{summary_text}</p>
+
+  <h2>Información adicional</h2>
+  <p>El lector puede interpretar los hechos directamente a partir de la noticia. Se omiten juicios o opiniones de la plataforma.</p>
+
   <p><a href="{link}">Fuente original</a></p>
   <p><em>Publicado automáticamente el {fecha}</em></p>
 </body>
@@ -44,8 +65,13 @@ def main():
     for section, urls in FEEDS.items():
         for url in urls:
             feed = feedparser.parse(url)
-            for entry in feed.entries[:2]:  # las 2 noticias más recientes
-                create_article(section, entry.title, entry.get("summary", ""), entry.link)
+            for entry in feed.entries[:2]:  # tomar las 2 noticias más recientes
+                # Obtener contenido adicional si existe
+                content_list = []
+                if hasattr(entry, "content"):
+                    for c in entry.content:
+                        content_list.append(c.value)
+                create_article(section, entry.title, entry.get("summary", ""), entry.link, content_list)
 
 if __name__ == "__main__":
     main()
