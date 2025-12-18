@@ -1,9 +1,8 @@
 name: Automatización Contexto Abierto
 
-# Se ejecuta cada 6 horas y también manualmente
 on:
   schedule:
-    - cron: "0 */6 * * *"  # cada 6 horas
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -11,26 +10,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Clonar el repositorio
       - uses: actions/checkout@v3
 
-      # 2️⃣ Instalar Python
       - name: Instalar Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      # 3️⃣ Instalar librerías necesarias
       - name: Instalar dependencias
         run: |
-            python -m pip install --upgrade pip
-            pip install -r requirements.txt
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      # 4️⃣ Ejecutar script de noticias reales con secciones
       - name: Ejecutar script de noticias reales
         run: python scripts/generate_real_news.py
 
-      # 5️⃣ Guardar cambios en el repositorio
       - name: Guardar cambios en el repositorio
         run: |
           git config user.name "contexto-abierto-bot"
