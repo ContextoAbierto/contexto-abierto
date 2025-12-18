@@ -3,6 +3,7 @@ import requests
 import os
 import json
 import re
+import random
 from datetime import datetime
 
 # =============================
@@ -30,6 +31,43 @@ FEEDS = {
     }
 }
 
+PROMPTS = [
+    # Perfil Formal
+    """Redacta un artículo periodístico completo en español basado en los hechos que se indican a continuación. 
+- Mantén únicamente hechos verificables.
+- Evita opiniones, adjetivos emocionales, ideología o referencia al medio.
+- Escribe formal, profesional y coherente.
+- Amplía la noticia aportando contexto histórico, social o institucional.
+- Explica posibles consecuencias de los hechos sin especular.
+- Longitud mínima: 450-600 palabras.
+- Introducción, desarrollo y conclusión diferenciados.
+Hechos disponibles:
+\"\"\"{texto}\"\"\"""",
+
+    # Perfil Directo
+    """Redacta un artículo periodístico en español basado en los hechos que se presentan a continuación.
+- Mantén únicamente hechos verificables.
+- Estilo conciso, directo y claro.
+- Evita opiniones, ideología o referencia al medio.
+- Amplía la noticia si hace falta.
+- Longitud mínima: 400-500 palabras.
+- Organiza en párrafos con introducción, hechos principales y cierre.
+Hechos disponibles:
+\"\"\"{texto}\"\"\"""",
+
+    # Perfil Explicativo
+    """Redacta un artículo periodístico explicativo en español basado en los hechos indicados a continuación.
+- Mantén únicamente hechos verificables.
+- Explica con detalle y aporta contexto social, institucional o histórico.
+- Describe posibles consecuencias o escenarios futuros de forma neutral.
+- No menciones ideología ni el medio original.
+- Estilo claro, coherente y profesional.
+- Longitud mínima: 500-700 palabras.
+- Organiza en: contexto inicial, desarrollo de hechos, repercusiones y conclusión final.
+Hechos disponibles:
+\"\"\"{texto}\"\"\""""
+]
+
 news_index = {}
 
 # =============================
@@ -52,52 +90,20 @@ def texto_base_minimo(texto):
     return texto
 
 def reinterpretar_con_ia(texto):
-    prompt = f"""
-Redacta un artículo periodístico completo en español a partir de los hechos descritos.
+    prompt_base = random.choice(PROMPTS)
+    prompt = prompt_base.replace("{texto}", texto)
 
-Instrucciones editoriales obligatorias:
-- Mantén exclusivamente hechos verificables.
-- No incluyas opiniones explícitas.
-- No utilices lenguaje emocional ni calificativos ideológicos.
-- Reordena la información para mejorar la claridad.
-- Aporta contexto institucional, social o histórico cuando sea relevante.
-- Explica posibles implicaciones sin hacer juicios.
-- No menciones el medio original ni la fuente dentro del texto.
-- No indiques ningún tipo de perspectiva política.
-- Estilo: periodismo informativo profesional.
-
-Estructura sugerida:
-1. Contexto general del suceso.
-2. Hechos principales confirmados.
-3. Reacciones institucionales o datos relevantes.
-4. Situación actual y posibles escenarios futuros.
-
-Extensión mínima: 450 palabras.
-
-Hechos disponibles:
-\"\"\"{texto}\"\"\"
-"""
     payload = {
         "inputs": prompt,
-        "parameters": {
-            "max_new_tokens": 700,
-            "temperature": 0.4
-        }
+        "parameters": {"max_new_tokens": 800, "temperature": 0.4}
     }
 
     try:
-        response = requests.post(
-            HF_API_URL,
-            headers=HEADERS,
-            json=payload,
-            timeout=90
-        )
-
+        response = requests.post(HF_API_URL, headers=HEADERS, json=payload, timeout=90)
         if response.status_code == 200:
             return response.json()[0]["generated_text"]
         else:
             return texto
-
     except Exception:
         return texto
 
@@ -152,12 +158,15 @@ def main():
         for categoria, urls in categorias.items():
             for url in urls:
                 feed = feedparser.parse(url)
-                for entry in feed.entries[:1]:  # 1 noticia por feed (control gratis)
-                    resumen = entry.get("summary", "")
+                for entry in feed.entries[:1]:  # Control gratuito: 1 noticia por feed
+                    resumen = entry.get("summary", "") or entry.get("description", "")
+                    titulo = entry.get("title", "Sin título")
+                    
+                    # Si la noticia está en inglés, la IA la traducirá al español
                     crear_articulo(
                         seccion,
                         categoria,
-                        entry.title,
+                        titulo,
                         resumen,
                         entry.link
                     )
