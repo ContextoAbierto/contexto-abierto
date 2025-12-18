@@ -53,21 +53,30 @@ def texto_base_minimo(texto):
 
 def reinterpretar_con_ia(texto):
     prompt = f"""
-Reescribe la siguiente noticia en español con un estilo informativo y neutral.
+Redacta un artículo periodístico completo en español a partir de los hechos descritos.
 
-Instrucciones:
-- Mantén los hechos verificables.
-- Elimina opiniones explícitas o lenguaje emocional.
-- Amplía el contenido aportando contexto general.
-- No menciones ideología ni perspectiva política.
-- No menciones el medio original.
-- Usa redacción periodística profesional.
-- Longitud aproximada: 400-600 palabras.
+Instrucciones editoriales obligatorias:
+- Mantén exclusivamente hechos verificables.
+- No incluyas opiniones explícitas.
+- No utilices lenguaje emocional ni calificativos ideológicos.
+- Reordena la información para mejorar la claridad.
+- Aporta contexto institucional, social o histórico cuando sea relevante.
+- Explica posibles implicaciones sin hacer juicios.
+- No menciones el medio original ni la fuente dentro del texto.
+- No indiques ningún tipo de perspectiva política.
+- Estilo: periodismo informativo profesional.
 
-Noticia original:
+Estructura sugerida:
+1. Contexto general del suceso.
+2. Hechos principales confirmados.
+3. Reacciones institucionales o datos relevantes.
+4. Situación actual y posibles escenarios futuros.
+
+Extensión mínima: 450 palabras.
+
+Hechos disponibles:
 \"\"\"{texto}\"\"\"
 """
-
     payload = {
         "inputs": prompt,
         "parameters": {
