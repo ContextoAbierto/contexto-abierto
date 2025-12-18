@@ -24,6 +24,8 @@ jobs:
 
       - name: Ejecutar script de noticias reales
         run: python scripts/generate_real_news.py
+        env:
+          HF_API_KEY: ${{ secrets.HF_API_KEY }}
 
       - name: Guardar cambios en el repositorio
         run: |
