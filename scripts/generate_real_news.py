@@ -1,9 +1,22 @@
 import feedparser
-from datetime import datetime
+import requests
 import os
 import json
+import re
+from datetime import datetime
 
-# Fuentes RSS por sección
+# =============================
+# CONFIGURACIÓN
+# =============================
+
+HF_API_KEY = os.getenv("HF_API_KEY")
+HF_MODEL = "mistralai/Mistral-7B-Instruct-v0.2"
+HF_API_URL = f"https://api-inference.huggingface.co/models/{HF_MODEL}"
+
+HEADERS = {
+    "Authorization": f"Bearer {HF_API_KEY}"
+}
+
 FEEDS = {
     "espana": {
         "politica": ["https://www.europapress.es/rss/rss.aspx"],
@@ -17,68 +30,129 @@ FEEDS = {
     }
 }
 
-# Diccionario para almacenar enlaces de cada sección
 news_index = {}
 
-def create_article(section, category, title, summary, link, content_list=None):
+# =============================
+# FUNCIONES AUXILIARES
+# =============================
+
+def limpiar_texto(texto):
+    texto = re.sub(r'<[^>]+>', '', texto)
+    texto = texto.replace('\n', ' ').strip()
+    return texto
+
+def texto_base_minimo(texto):
+    if len(texto) < 300:
+        texto += (
+            " La información disponible hasta el momento es limitada. "
+            "El suceso se enmarca dentro de un contexto más amplio relacionado "
+            "con decisiones recientes, reacciones institucionales y posibles "
+            "implicaciones a corto y medio plazo."
+        )
+    return texto
+
+def reinterpretar_con_ia(texto):
+    prompt = f"""
+Reescribe la siguiente noticia en español con un estilo informativo y neutral.
+
+Instrucciones:
+- Mantén los hechos verificables.
+- Elimina opiniones explícitas o lenguaje emocional.
+- Amplía el contenido aportando contexto general.
+- No menciones ideología ni perspectiva política.
+- No menciones el medio original.
+- Usa redacción periodística profesional.
+- Longitud aproximada: 400-600 palabras.
+
+Noticia original:
+\"\"\"{texto}\"\"\"
+"""
+
+    payload = {
+        "inputs": prompt,
+        "parameters": {
+            "max_new_tokens": 700,
+            "temperature": 0.4
+        }
+    }
+
+    try:
+        response = requests.post(
+            HF_API_URL,
+            headers=HEADERS,
+            json=payload,
+            timeout=90
+        )
+
+        if response.status_code == 200:
+            return response.json()[0]["generated_text"]
+        else:
+            return texto
+
+    except Exception:
+        return texto
+
+def crear_articulo(seccion, categoria, titulo, resumen, enlace):
     fecha = datetime.now().strftime("%Y-%m-%d")
-    ruta = f"public/noticias/{section}/{category}"
+    ruta = f"public/noticias/{seccion}/{categoria}"
     os.makedirs(ruta, exist_ok=True)
-    filename = f"{fecha}-{title[:40].replace(' ', '_').replace('/', '_')}.html"
+
+    filename = f"{fecha}-{titulo[:60].replace(' ', '_').replace('/', '_')}.html"
     archivo = f"{ruta}/{filename}"
 
-    # Generar texto completo
-    summary_text = summary or ""
-    if content_list:
-        for c in content_list:
-            summary_text += " " + c
-    if len(summary_text) < 400:
-        summary_text += " [...]"
+    texto_limpio = limpiar_texto(resumen)
+    texto_limpio = texto_base_minimo(texto_limpio)
+    texto_final = reinterpretar_con_ia(texto_limpio)
 
-    contenido = f"""
-<!DOCTYPE html>
+    parrafos = "".join(f"<p>{p}</p>" for p in texto_final.split("\n") if p.strip())
+
+    html = f"""<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>{title}</title>
+<meta charset="UTF-8">
+<title>{titulo}</title>
 </head>
 <body>
-  <h1>{title}</h1>
+<h1>{titulo}</h1>
 
-  <h2>Noticia</h2>
-  <p>{summary_text}</p>
+{parrafos}
 
-  <h2>Información adicional</h2>
-  <p>El lector puede interpretar los hechos directamente a partir de la noticia. Se omiten juicios o opiniones de la plataforma.</p>
+<hr>
+<p><strong>Fuente original:</strong>
+<a href="{enlace}" target="_blank" rel="noopener">Consultar noticia original</a>
+</p>
 
-  <p><a href="{link}">Fuente original</a></p>
-  <p><em>Publicado automáticamente el {fecha}</em></p>
+<p><em>Artículo generado automáticamente el {fecha}</em></p>
 </body>
 </html>
 """
-    with open(archivo, "w", encoding="utf-8") as f:
-        f.write(contenido)
 
-    # Guardar en el índice de noticias
-    if section not in news_index:
-        news_index[section] = {}
-    if category not in news_index[section]:
-        news_index[section][category] = []
-    news_index[section][category].append(f"noticias/{section}/{category}/{filename}")
+    with open(archivo, "w", encoding="utf-8") as f:
+        f.write(html)
+
+    news_index.setdefault(seccion, {}).setdefault(categoria, []).append(
+        f"noticias/{seccion}/{categoria}/{filename}"
+    )
+
+# =============================
+# PROCESO PRINCIPAL
+# =============================
 
 def main():
-    for section, categories in FEEDS.items():
-        for category, urls in categories.items():
+    for seccion, categorias in FEEDS.items():
+        for categoria, urls in categorias.items():
             for url in urls:
                 feed = feedparser.parse(url)
-                for entry in feed.entries[:2]:  # últimas 2 noticias
-                    content_list = []
-                    if hasattr(entry, "content"):
-                        for c in entry.content:
-                            content_list.append(c.value)
-                    create_article(section, category, entry.title, entry.get("summary", ""), entry.link, content_list)
+                for entry in feed.entries[:1]:  # 1 noticia por feed (control gratis)
+                    resumen = entry.get("summary", "")
+                    crear_articulo(
+                        seccion,
+                        categoria,
+                        entry.title,
+                        resumen,
+                        entry.link
+                    )
 
-    # Guardar el JSON con los enlaces
     os.makedirs("public/data", exist_ok=True)
     with open("public/data/news_index.json", "w", encoding="utf-8") as f:
         json.dump(news_index, f, ensure_ascii=False, indent=2)
