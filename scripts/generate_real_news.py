@@ -14,6 +14,9 @@ HF_API_KEY = os.getenv("HF_API_KEY")
 HF_MODEL = "mistralai/Mistral-7B-Instruct-v0.2"
 HF_API_URL = f"https://api-inference.huggingface.co/models/{HF_MODEL}"
 
+if not HF_API_KEY:
+    raise ValueError("HF_API_KEY no está definido en los secrets de GitHub")
+
 HEADERS = {
     "Authorization": f"Bearer {HF_API_KEY}"
 }
@@ -32,7 +35,6 @@ FEEDS = {
 }
 
 PROMPTS = [
-    # Perfil Formal
     """Redacta un artículo periodístico completo en español basado en los hechos que se indican a continuación. 
 - Mantén únicamente hechos verificables.
 - Evita opiniones, adjetivos emocionales, ideología o referencia al medio.
@@ -43,8 +45,6 @@ PROMPTS = [
 - Introducción, desarrollo y conclusión diferenciados.
 Hechos disponibles:
 \"\"\"{texto}\"\"\"""",
-
-    # Perfil Directo
     """Redacta un artículo periodístico en español basado en los hechos que se presentan a continuación.
 - Mantén únicamente hechos verificables.
 - Estilo conciso, directo y claro.
@@ -54,8 +54,6 @@ Hechos disponibles:
 - Organiza en párrafos con introducción, hechos principales y cierre.
 Hechos disponibles:
 \"\"\"{texto}\"\"\"""",
-
-    # Perfil Explicativo
     """Redacta un artículo periodístico explicativo en español basado en los hechos indicados a continuación.
 - Mantén únicamente hechos verificables.
 - Explica con detalle y aporta contexto social, institucional o histórico.
@@ -107,12 +105,53 @@ def reinterpretar_con_ia(texto):
     except Exception:
         return texto
 
+# =============================
+# NUEVA FUNCION: Mejorar títulos con IA
+# =============================
+
+def mejorar_titulo_con_ia(titulo):
+    prompt = f"""
+Reescribe el siguiente titular periodístico en español:
+
+- Mantén el significado original
+- Estilo neutro y profesional
+- Sin ideología
+- Sin referencias a medios
+- Máximo 12 palabras
+- No uses comillas
+
+Titular original:
+"{titulo}"
+"""
+
+    payload = {
+        "inputs": prompt,
+        "parameters": {
+            "max_new_tokens": 30,
+            "temperature": 0.3
+        }
+    }
+
+    try:
+        r = requests.post(HF_API_URL, headers=HEADERS, json=payload, timeout=60)
+        if r.status_code == 200:
+            return r.json()[0]["generated_text"].strip()
+    except:
+        pass
+
+    return titulo
+
+# =============================
+# FUNCION PARA CREAR ARTÍCULO HTML
+# =============================
+
 def crear_articulo(seccion, categoria, titulo, resumen, enlace):
-    fecha = datetime.now().strftime("%Y-%m-%d")
+    fecha_archivo = datetime.now().strftime("%Y-%m-%d")
+    fecha_visible = datetime.now().strftime("%d/%m/%Y")
     ruta = f"public/noticias/{seccion}/{categoria}"
     os.makedirs(ruta, exist_ok=True)
 
-    filename = f"{fecha}-{titulo[:60].replace(' ', '_').replace('/', '_')}.html"
+    filename = f"{fecha_archivo}-{titulo[:60].replace(' ', '_').replace('/', '_')}.html"
     archivo = f"{ruta}/{filename}"
 
     texto_limpio = limpiar_texto(resumen)
@@ -137,7 +176,7 @@ def crear_articulo(seccion, categoria, titulo, resumen, enlace):
 <a href="{enlace}" target="_blank" rel="noopener">Consultar noticia original</a>
 </p>
 
-<p><em>Artículo generado automáticamente el {fecha}</em></p>
+<p><em>Artículo generado automáticamente el {fecha_visible}</em></p>
 </body>
 </html>
 """
@@ -160,9 +199,11 @@ def main():
                 feed = feedparser.parse(url)
                 for entry in feed.entries[:1]:  # Control gratuito: 1 noticia por feed
                     resumen = entry.get("summary", "") or entry.get("description", "")
-                    titulo = entry.get("title", "Sin título")
+                    titulo_original = entry.get("title", "Sin título")
                     
-                    # Si la noticia está en inglés, la IA la traducirá al español
+                    # Mejoramos el título con IA
+                    titulo = mejorar_titulo_con_ia(titulo_original)
+                    
                     crear_articulo(
                         seccion,
                         categoria,
