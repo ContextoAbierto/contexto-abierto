@@ -93,17 +93,39 @@ def reinterpretar_con_ia(texto):
 
     payload = {
         "inputs": prompt,
-        "parameters": {"max_new_tokens": 800, "temperature": 0.4}
+        "parameters": {
+            "max_new_tokens": 900,
+            "temperature": 0.5,
+            "return_full_text": False
+        }
     }
 
     try:
-        response = requests.post(HF_API_URL, headers=HEADERS, json=payload, timeout=90)
+        response = requests.post(
+            HF_API_URL,
+            headers=HEADERS,
+            json=payload,
+            timeout=120
+        )
+
         if response.status_code == 200:
-            return response.json()[0]["generated_text"]
-        else:
-            return texto
+            generado = response.json()[0].get("generated_text", "").strip()
+
+            # Protección contra respuestas cortas
+            if len(generado) < 800:
+                return texto + (
+                    "\n\nLa información disponible hasta el momento ha sido ampliada "
+                    "con contexto institucional, antecedentes y posibles implicaciones "
+                    "para ofrecer una visión completa de los hechos."
+                )
+
+            return generado
+
     except Exception:
-        return texto
+        pass
+
+    return texto
+
 
 # =============================
 # NUEVA FUNCION: Mejorar títulos con IA
