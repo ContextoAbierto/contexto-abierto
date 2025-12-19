@@ -3,164 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <title>Contexto Abierto</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <style>
-    body {
-      font-family: Georgia, "Times New Roman", serif;
-      margin: 0;
-      background: #f4f4f4;
-      color: #222;
-    }
-
-    header {
-      background: #ffffff;
-      border-bottom: 3px solid #000;
-      padding: 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 3em;
-      letter-spacing: 2px;
-    }
-
-    nav {
-      background: #000;
-    }
-
-    nav ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-
-    nav li {
-      margin: 0;
-    }
-
-    nav a {
-      display: block;
-      padding: 12px 18px;
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      background: #444;
-    }
-
-    main {
-      max-width: 1100px;
-      margin: 30px auto;
-      padding: 0 15px;
-    }
-
-    section {
-      margin-bottom: 40px;
-    }
-
-    section h2 {
-      border-bottom: 2px solid #000;
-      padding-bottom: 5px;
-      margin-bottom: 15px;
-      font-size: 1.6em;
-    }
-
-    article {
-      background: #fff;
-      padding: 15px;
-      margin-bottom: 15px;
-      border-left: 5px solid #000;
-    }
-
-    article a {
-      text-decoration: none;
-      color: #000;
-      font-weight: bold;
-    }
-
-    article a:hover {
-      text-decoration: underline;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #fff;
-      border-top: 1px solid #ccc;
-      font-size: 0.9em;
-      color: #555;
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
 
-<header>
+<header class="top-bar">
   <h1>Contexto Abierto</h1>
-  <p>Noticias automatizadas · Información reinterpretada · Humor y análisis</p>
+  <nav>
+    <a href="#" class="active">España</a>
+    <a href="#">Internacional</a>
+    <a href="#" class="humor">Humor</a>
+  </nav>
 </header>
 
-<nav>
-  <ul>
-    <li><a href="#espana">España</a></li>
-    <li><a href="#internacional">Internacional</a></li>
-    <li><a href="#politica">Política</a></li>
-    <li><a href="#economia">Economía</a></li>
-    <li><a href="#deportes">Deportes</a></li>
-    <li><a href="#humor">Humor</a></li>
-  </ul>
-</nav>
+<main class="container">
 
-<main id="contenido">
-  <p>Cargando noticias…</p>
+  <section class="news-grid">
+
+    <!-- Card ejemplo -->
+    <article class="card espana">
+      <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c" alt="">
+      <div class="card-content">
+        <span class="date">18/12/2025</span>
+        <h2>Ejemplo de titular informativo en España</h2>
+        <p>
+          Este es un resumen de ejemplo. Aquí aparecerán automáticamente
+          las noticias generadas por el sistema.
+        </p>
+        <a href="#" class="read-more">Leer más →</a>
+      </div>
+    </article>
+
+    <article class="card internacional">
+      <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df" alt="">
+      <div class="card-content">
+        <span class="date">18/12/2025</span>
+        <h2>Ejemplo de noticia internacional</h2>
+        <p>
+          Noticias del mundo reinterpretadas en español con contexto claro.
+        </p>
+        <a href="#" class="read-more">Leer más →</a>
+      </div>
+    </article>
+
+    <article class="card humor">
+      <img src="https://images.unsplash.com/photo-1611095564985-89765398121b" alt="">
+      <div class="card-content">
+        <span class="date">18/12/2025</span>
+        <h2>Noticia satírica del día</h2>
+        <p>
+          Una reinterpretación humorística de la actualidad.
+        </p>
+        <a href="#" class="read-more">Reír un poco →</a>
+      </div>
+    </article>
+
+  </section>
+
 </main>
 
 <footer>
-  <p>Contexto Abierto · Proyecto experimental de automatización informativa</p>
+  <p>© Contexto Abierto · Noticias automatizadas</p>
 </footer>
-
-<script>
-fetch("data/news_index.json")
-  .then(res => res.json())
-  .then(data => {
-    const main = document.getElementById("contenido");
-    main.innerHTML = "";
-
-    for (const seccion in data) {
-      for (const categoria in data[seccion]) {
-
-        const section = document.createElement("section");
-        section.id = categoria;
-
-        const h2 = document.createElement("h2");
-        h2.textContent = seccion.toUpperCase() + " · " + categoria.toUpperCase();
-        section.appendChild(h2);
-
-        data[seccion][categoria].slice(0, 5).forEach(url => {
-          const article = document.createElement("article");
-          const a = document.createElement("a");
-          a.href = url;
-          a.textContent = url.split("/").pop().replace(/-/g, " ");
-          article.appendChild(a);
-          section.appendChild(article);
-        });
-
-        main.appendChild(section);
-      }
-    }
-  })
-  .catch(() => {
-    document.getElementById("contenido").innerHTML =
-      "<p>No se pudieron cargar las noticias.</p>";
-  });
-</script>
 
 </body>
 </html>
