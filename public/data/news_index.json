@@ -1,29 +1,17 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2025-12-19-union-europea-ucrania.html"
+      "noticias/espana/politica/2025-12-18-ue-financiacion-ucrania.html"
     ],
-    "economia": [
-      "noticias/espana/economia/2025-12-19-inflacion-espana.html"
-    ],
-    "deportes": [
-      "noticias/espana/deportes/2025-12-19-laliga-jornada.html"
-    ]
+    "economia": [],
+    "deportes": []
   },
   "internacional": {
-    "politica": [
-      "noticias/internacional/politica/2025-12-19-eeuu-congreso.html"
-    ],
-    "economia": [
-      "noticias/internacional/economia/2025-12-19-china-mercados.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2025-12-19-mundial-clubes.html"
-    ]
+    "politica": [],
+    "economia": [],
+    "deportes": []
   },
-  "humor": {
-    "satira": [
-      "noticias/humor/satira/2025-12-19-ue-prestamo-ucrania.html"
-    ]
-  }
+  "humor": [
+    "noticias/humor/2025-12-18-ue-prestamo-definitivo.html"
+  ]
 }
