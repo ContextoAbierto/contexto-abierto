@@ -1,17 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2025-12-18-ue-financiacion-ucrania.html"
+      "noticias/espana/politica/2025-12-19-Sumar_califica_de_útil_la_reunión_entre_Sánchez_y_Díaz,_que_.html"
     ],
-    "economia": [],
-    "deportes": []
+    "economia": [
+      "noticias/espana/economia/2025-12-19-La_jueza_vuelve_a_archivar_la_causa_contra_Mónica_Oltra_y_ni.html"
+    ],
+    "deportes": [
+      "noticias/espana/deportes/2025-12-19-Giménez_y_Baena,_en_su_cuenta_atrás.html"
+    ]
   },
   "internacional": {
-    "politica": [],
-    "economia": [],
-    "deportes": []
-  },
-  "humor": [
-    "noticias/humor/2025-12-18-ue-prestamo-definitivo.html"
-  ]
+    "economia": [
+      "noticias/internacional/economia/2025-12-19-EU_agrees_€90bn_loan_for_Ukraine_but_without_using_Russian_a.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2025-12-19-Seahawks_mount_16-point_comeback,_defeat_Rams_in_OT_to_take_.html"
+    ]
+  }
 }
