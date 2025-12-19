@@ -4,67 +4,51 @@
   <meta charset="UTF-8">
   <title>Contexto Abierto</title>
   <link rel="stylesheet" href="css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
-<header class="top-bar">
+<header class="header">
   <h1>Contexto Abierto</h1>
-  <nav>
-    <a href="#" class="active">España</a>
-    <a href="#">Internacional</a>
-    <a href="#" class="humor">Humor</a>
-  </nav>
+  <p>Información reinterpretada, sin ruido</p>
 </header>
 
-<main class="container">
+<nav class="menu">
+  <a href="#">España</a>
+  <a href="#">Internacional</a>
+  <a href="#">Humor</a>
+</nav>
 
-  <section class="news-grid">
+<main class="portada">
 
-    <!-- Card ejemplo -->
-    <article class="card espana">
-      <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c" alt="">
-      <div class="card-content">
-        <span class="date">18/12/2025</span>
-        <h2>Ejemplo de titular informativo en España</h2>
-        <p>
-          Este es un resumen de ejemplo. Aquí aparecerán automáticamente
-          las noticias generadas por el sistema.
-        </p>
-        <a href="#" class="read-more">Leer más →</a>
-      </div>
-    </article>
+  <!-- NOTICIA PRINCIPAL -->
+  <section class="hero">
+    <img src="img/placeholder.jpg" alt="Noticia principal">
+    <h2>La Unión Europea estudia nuevas vías de financiación para Ucrania</h2>
+    <p>Análisis del contexto político y económico del anuncio realizado en Bruselas.</p>
+  </section>
 
-    <article class="card internacional">
-      <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df" alt="">
-      <div class="card-content">
-        <span class="date">18/12/2025</span>
-        <h2>Ejemplo de noticia internacional</h2>
-        <p>
-          Noticias del mundo reinterpretadas en español con contexto claro.
-        </p>
-        <a href="#" class="read-more">Leer más →</a>
-      </div>
-    </article>
+  <!-- ÚLTIMAS NOTICIAS -->
+  <section class="ultimas">
+    <h3>Últimas noticias</h3>
+    <ul>
+      <li><a href="#">España revisa su política económica para 2026</a></li>
+      <li><a href="#">El BCE mantiene los tipos de interés</a></li>
+      <li><a href="#">Nuevo acuerdo internacional sobre energía</a></li>
+      <li><a href="#">LaLiga entra en su fase decisiva</a></li>
+    </ul>
+  </section>
 
-    <article class="card humor">
-      <img src="https://images.unsplash.com/photo-1611095564985-89765398121b" alt="">
-      <div class="card-content">
-        <span class="date">18/12/2025</span>
-        <h2>Noticia satírica del día</h2>
-        <p>
-          Una reinterpretación humorística de la actualidad.
-        </p>
-        <a href="#" class="read-more">Reír un poco →</a>
-      </div>
-    </article>
-
+  <!-- HUMOR -->
+  <section class="humor">
+    <h3>Humor</h3>
+    <img src="img/humor.jpg" alt="Humor">
+    <p>La UE promete otro préstamo “definitivo” que esta vez sí lo arregla todo</p>
   </section>
 
 </main>
 
-<footer>
-  <p>© Contexto Abierto · Noticias automatizadas</p>
+<footer class="footer">
+  <p>© Contexto Abierto — Proyecto experimental</p>
 </footer>
 
 </body>
