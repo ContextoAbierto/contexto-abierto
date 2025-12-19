@@ -1,21 +1,29 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2025-12-19-Sánchez_defiende_la_\"pulcritud\"_del_rescate_de_Plus_Ultra_y_.html"
+      "noticias/espana/politica/2025-12-19-union-europea-ucrania.html"
     ],
     "economia": [
-      "noticias/espana/economia/2025-12-19-Guardiola_saca_la_carta_del_pucherazo_electoral_y_desaparece.html"
+      "noticias/espana/economia/2025-12-19-inflacion-espana.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2025-12-19-Giménez_y_Baena,_en_su_cuenta_atrás.html"
+      "noticias/espana/deportes/2025-12-19-laliga-jornada.html"
     ]
   },
   "internacional": {
+    "politica": [
+      "noticias/internacional/politica/2025-12-19-eeuu-congreso.html"
+    ],
     "economia": [
-      "noticias/internacional/economia/2025-12-19-EU_agrees_€90bn_loan_for_Ukraine_but_without_using_Russian_a.html"
+      "noticias/internacional/economia/2025-12-19-china-mercados.html"
     ],
     "deportes": [
-      "noticias/internacional/deportes/2025-12-19-Seahawks_mount_16-point_comeback,_defeat_Rams_in_OT_to_take_.html"
+      "noticias/internacional/deportes/2025-12-19-mundial-clubes.html"
+    ]
+  },
+  "humor": {
+    "satira": [
+      "noticias/humor/satira/2025-12-19-ue-prestamo-ucrania.html"
     ]
   }
 }
