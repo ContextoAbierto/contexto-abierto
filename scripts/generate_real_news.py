@@ -78,14 +78,15 @@ def limpiar_texto(texto):
     return texto
 
 def texto_base_minimo(texto):
-    if len(texto) < 300:
+    if len(texto) < 500:
         texto += (
-            " La información disponible hasta el momento es limitada. "
-            "El suceso se enmarca dentro de un contexto más amplio relacionado "
-            "con decisiones recientes, reacciones institucionales y posibles "
-            "implicaciones a corto y medio plazo."
+            " Este hecho se produce en un contexto de negociaciones políticas, "
+            "decisiones institucionales y debates económicos a nivel nacional "
+            "e internacional. Diferentes actores implicados han reaccionado "
+            "al anuncio, mientras se analizan las consecuencias a corto y medio plazo."
         )
     return texto
+
 
 def reinterpretar_con_ia(texto):
     prompt_base = random.choice(PROMPTS)
