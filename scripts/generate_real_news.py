@@ -37,34 +37,13 @@ FEEDS = {
 }
 
 PROMPTS = [
-    """Redacta un artículo periodístico completo en español basado en los hechos que se indican a continuación. 
-- Mantén únicamente hechos verificables.
-- Evita opiniones, adjetivos emocionales, ideología o referencia al medio.
-- Escribe formal, profesional y coherente.
-- Amplía la noticia aportando contexto histórico, social o institucional.
-- Explica posibles consecuencias de los hechos sin especular.
-- Longitud mínima: 450-600 palabras.
-- Introducción, desarrollo y conclusión diferenciados.
-Hechos disponibles:
-\"\"\"{texto}\"\"\"""",
-    """Redacta un artículo periodístico en español basado en los hechos que se presentan a continuación.
-- Mantén únicamente hechos verificables.
-- Estilo conciso, directo y claro.
-- Evita opiniones, ideología o referencia al medio.
-- Amplía la noticia si hace falta.
-- Longitud mínima: 400-500 palabras.
-- Organiza en párrafos con introducción, hechos principales y cierre.
-Hechos disponibles:
-\"\"\"{texto}\"\"\"""",
-    """Redacta un artículo periodístico explicativo en español basado en los hechos indicados a continuación.
-- Mantén únicamente hechos verificables.
-- Explica con detalle y aporta contexto social, institucional o histórico.
-- Describe posibles consecuencias o escenarios futuros de forma neutral.
-- No menciones ideología ni el medio original.
-- Estilo claro, coherente y profesional.
-- Longitud mínima: 500-700 palabras.
-- Organiza en: contexto inicial, desarrollo de hechos, repercusiones y conclusión final.
-Hechos disponibles:
+    """Redacta un artículo periodístico completo en español basado en los hechos que se indican a continuación.
+Mantén únicamente hechos verificables.
+Evita opiniones, ideología o referencias al medio.
+Amplía con contexto institucional o histórico.
+Longitud mínima: 500 palabras.
+
+Hechos:
 \"\"\"{texto}\"\"\""""
 ]
 
@@ -76,23 +55,18 @@ news_index = {}
 
 def limpiar_texto(texto):
     texto = re.sub(r'<[^>]+>', '', texto)
-    texto = texto.replace('\n', ' ').strip()
-    return texto
+    return texto.replace('\n', ' ').strip()
 
 def texto_base_minimo(texto):
     if len(texto) < 500:
         texto += (
-            " Este hecho se produce en un contexto de negociaciones políticas, "
-            "decisiones institucionales y debates económicos a nivel nacional "
-            "e internacional. Diferentes actores implicados han reaccionado "
-            "al anuncio, mientras se analizan las consecuencias a corto y medio plazo."
+            " Este hecho se produce en un contexto de decisiones institucionales, "
+            "reacciones políticas y análisis económicos que continúan desarrollándose."
         )
     return texto
 
-
 def reinterpretar_con_ia(texto):
-    prompt_base = random.choice(PROMPTS)
-    prompt = prompt_base.replace("{texto}", texto)
+    prompt = random.choice(PROMPTS).replace("{texto}", texto)
 
     payload = {
         "inputs": prompt,
@@ -104,57 +78,27 @@ def reinterpretar_con_ia(texto):
     }
 
     try:
-        response = requests.post(
-            HF_API_URL,
-            headers=HEADERS,
-            json=payload,
-            timeout=120
-        )
-
-        if response.status_code == 200:
-            generado = response.json()[0].get("generated_text", "").strip()
-
-            # Protección contra respuestas cortas
-            if len(generado) < 800:
-                return texto + (
-                    "\n\nLa información disponible hasta el momento ha sido ampliada "
-                    "con contexto institucional, antecedentes y posibles implicaciones "
-                    "para ofrecer una visión completa de los hechos."
-                )
-
-            return generado
-
-    except Exception:
+        r = requests.post(HF_API_URL, headers=HEADERS, json=payload, timeout=120)
+        if r.status_code == 200:
+            generado = r.json()[0].get("generated_text", "").strip()
+            if len(generado) > 600:
+                return generado
+    except:
         pass
 
     return texto
 
-
-# =============================
-# NUEVA FUNCION: Mejorar títulos con IA
-# =============================
-
 def mejorar_titulo_con_ia(titulo):
     prompt = f"""
-Reescribe el siguiente titular periodístico en español:
+Reescribe el siguiente titular periodístico en español.
+Máximo 12 palabras. Estilo neutro y profesional.
 
-- Mantén el significado original
-- Estilo neutro y profesional
-- Sin ideología
-- Sin referencias a medios
-- Máximo 12 palabras
-- No uses comillas
-
-Titular original:
+Titular:
 "{titulo}"
 """
-
     payload = {
         "inputs": prompt,
-        "parameters": {
-            "max_new_tokens": 30,
-            "temperature": 0.3
-        }
+        "parameters": {"max_new_tokens": 30, "temperature": 0.3}
     }
 
     try:
@@ -167,25 +111,23 @@ Titular original:
     return titulo
 
 # =============================
-# FUNCION PARA CREAR ARTÍCULO HTML
+# CREAR ARTÍCULO HTML
 # =============================
 
 def crear_articulo(seccion, categoria, titulo, resumen, enlace):
     fecha_archivo = datetime.now().strftime("%Y-%m-%d")
     fecha_visible = datetime.now().strftime("%d/%m/%Y")
+
     ruta = f"public/noticias/{seccion}/{categoria}"
     os.makedirs(ruta, exist_ok=True)
 
-    filename = f"{fecha_archivo}-{titulo[:60].replace(' ', '_').replace('/', '_')}.html"
-    archivo = f"{ruta}/{filename}"
+    slug = re.sub(r'[^a-zA-Z0-9]+', '-', titulo.lower())[:60]
+    archivo = f"{ruta}/{fecha_archivo}-{slug}.html"
 
-    texto_limpio = limpiar_texto(resumen)
-    texto_limpio = texto_base_minimo(texto_limpio)
-    texto_final = reinterpretar_con_ia(texto_limpio)
+    texto = reinterpretar_con_ia(texto_base_minimo(limpiar_texto(resumen)))
+    parrafos = "".join(f"<p>{p}</p>" for p in texto.split("\n") if p.strip())
 
-    parrafos = "".join(f"<p>{p}</p>" for p in texto_final.split("\n") if p.strip())
-    
-html = f"""<!DOCTYPE html>
+    html = f"""<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -205,15 +147,12 @@ html = f"""<!DOCTYPE html>
 </header>
 
 <main class="container">
-
 <article class="card {seccion}">
   <img src="/img/placeholder.jpg" alt="Imagen noticia">
   <div class="card-content">
     <span class="date">{fecha_visible}</span>
     <h2>{titulo}</h2>
-
     {parrafos}
-
     <hr>
     <p class="source">
       <strong>Fuente original:</strong>
@@ -221,7 +160,6 @@ html = f"""<!DOCTYPE html>
     </p>
   </div>
 </article>
-
 </main>
 
 <footer>
@@ -231,11 +169,12 @@ html = f"""<!DOCTYPE html>
 </body>
 </html>
 """
+
     with open(archivo, "w", encoding="utf-8") as f:
         f.write(html)
 
     news_index.setdefault(seccion, {}).setdefault(categoria, []).append(
-        f"noticias/{seccion}/{categoria}/{filename}"
+        f"noticias/{seccion}/{categoria}/{os.path.basename(archivo)}"
     )
 
 # =============================
@@ -247,20 +186,10 @@ def main():
         for categoria, urls in categorias.items():
             for url in urls:
                 feed = feedparser.parse(url)
-                for entry in feed.entries[:1]:  # Control gratuito: 1 noticia por feed
+                for entry in feed.entries[:1]:
+                    titulo = mejorar_titulo_con_ia(entry.get("title", "Sin título"))
                     resumen = entry.get("summary", "") or entry.get("description", "")
-                    titulo_original = entry.get("title", "Sin título")
-                    
-                    # Mejoramos el título con IA
-                    titulo = mejorar_titulo_con_ia(titulo_original)
-                    
-                    crear_articulo(
-                        seccion,
-                        categoria,
-                        titulo,
-                        resumen,
-                        entry.link
-                    )
+                    crear_articulo(seccion, categoria, titulo, resumen, entry.link)
 
     os.makedirs("public/data", exist_ok=True)
     with open("public/data/news_index.json", "w", encoding="utf-8") as f:
