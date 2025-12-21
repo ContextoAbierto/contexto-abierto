@@ -184,8 +184,7 @@ def crear_articulo(seccion, categoria, titulo, resumen, enlace):
     texto_final = reinterpretar_con_ia(texto_limpio)
 
     parrafos = "".join(f"<p>{p}</p>" for p in texto_final.split("\n") if p.strip())
-
-    html = f"""<!DOCTYPE html>
+    
 html = f"""<!DOCTYPE html>
 <html lang="es">
 <head>
