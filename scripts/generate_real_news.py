@@ -184,24 +184,53 @@ def crear_articulo(seccion, categoria, titulo, resumen, enlace):
     parrafos = "".join(f"<p>{p}</p>" for p in texto_final.split("\n") if p.strip())
 
     html = f"""<!DOCTYPE html>
+html = f"""<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <title>{titulo}</title>
+<link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-<h1>{titulo}</h1>
 
-{parrafos}
+<header class="top-bar">
+  <h1><a href="/" style="color:white;text-decoration:none;">Contexto Abierto</a></h1>
+  <nav>
+    <a href="/">España</a>
+    <a href="/">Internacional</a>
+    <a href="/" class="humor">Humor</a>
+  </nav>
+</header>
 
-<hr>
-<p><strong>Fuente original:</strong>
-<a href="{enlace}" target="_blank" rel="noopener">Consultar noticia original</a>
-</p>
+<main class="container">
 
-<p><em>Artículo generado automáticamente el {fecha_visible}</em></p>
+<article class="card {seccion}">
+  <img src="/img/placeholder.jpg" alt="Imagen noticia">
+  <div class="card-content">
+    <span class="date">{fecha_visible}</span>
+    <h2>{titulo}</h2>
+
+    {parrafos}
+
+    <hr>
+    <p class="source">
+      <strong>Fuente original:</strong>
+      <a href="{enlace}" target="_blank" rel="noopener">Consultar noticia original</a>
+    </p>
+  </div>
+</article>
+
+</main>
+
+<footer>
+© Contexto Abierto — Proyecto automatizado
+</footer>
+
 </body>
 </html>
+"""
+
 """
 
     with open(archivo, "w", encoding="utf-8") as f:
