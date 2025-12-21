@@ -226,7 +226,7 @@ html = f"""<!DOCTYPE html>
 </main>
 
 <footer>
-© Contexto Abierto — Proyecto automatizado
+&copy; Contexto Abierto - Proyecto automatizado
 </footer>
 
 </body>
