@@ -231,9 +231,6 @@ html = f"""<!DOCTYPE html>
 </body>
 </html>
 """
-
-"""
-
     with open(archivo, "w", encoding="utf-8") as f:
         f.write(html)
 
