@@ -1,21 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-01-01-autoridades-suizas-confirman-decenas-de-fallecidos-en-el-inc.html"
+      "noticias/espana/politica/2026-01-01-alrededor-de-40-muertos-y-115-heridos-en-un-incendio-durante.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-01-01-varias-decenas-de-muertos-y-un-centenar-de-heridos-en-un-inc.html"
+      "noticias/espana/economia/2026-01-01-al-menos-40-muertos-y-115-heridos-en-un-incendio-en-un-bar-d.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-01-01-barrenetxea-apunta-a-seguir-de-baja-ante-el-atl-tico.html"
+      "noticias/espana/deportes/2026-01-01-el-atl-tico-estrena-2026-con-barrios-ausente-en-la-primera-s.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-01-01-several-dozen-feared-dead-in-swiss-ski-resort-bar-fire.html"
+      "noticias/internacional/economia/2026-01-01-around-40-dead-in-swiss-ski-resort-bar-fire.html"
     ],
     "deportes": [
-      "noticias/internacional/deportes/2026-01-01-takeaways-miami-s-toughness-defense-huge-in-upset-of-ohio-st.html"
+      "noticias/internacional/deportes/2026-01-01-source-saints-wr-olave-out-due-to-blood-clot.html"
     ]
   }
 }
