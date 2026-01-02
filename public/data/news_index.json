@@ -1,21 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-01-01-alrededor-de-40-muertos-y-115-heridos-en-un-incendio-durante.html"
+      "noticias/espana/politica/2026-01-02-alrededor-de-40-muertos-y-115-heridos-en-un-incendio-durante.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-01-01-al-menos-40-muertos-y-115-heridos-en-un-incendio-en-un-bar-d.html"
+      "noticias/espana/economia/2026-01-02-al-menos-40-muertos-y-115-heridos-en-un-incendio-en-un-bar-d.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-01-01-el-atl-tico-estrena-2026-con-barrios-ausente-en-la-primera-s.html"
+      "noticias/espana/deportes/2026-01-02-el-d-a-que-sadiq-y-sucic-ilusionaron-ante-el-atl-tico.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-01-01-around-40-dead-in-swiss-ski-resort-bar-fire.html"
+      "noticias/internacional/economia/2026-01-02-around-40-dead-in-swiss-ski-resort-bar-fire-police-say.html"
     ],
     "deportes": [
-      "noticias/internacional/deportes/2026-01-01-source-saints-wr-olave-out-due-to-blood-clot.html"
+      "noticias/internacional/deportes/2026-01-02-iu-tops-tide-in-dream-come-true-ducks-up-next.html"
     ]
   }
 }
