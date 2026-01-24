@@ -1,21 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-01-24-accidentes-de-tren-directo-catalu-a-pide-a-renfe-y-adif-susp.html"
+      "noticias/espana/politica/2026-01-24-accidentes-de-tren-directo-renfe-suspende-el-servicio-de-rod.html"
     ],
     "economia": [
       "noticias/espana/economia/2026-01-24-la-generalitat-suspende-de-nuevo-todos-los-trenes-de-rodalie.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-01-24-pellegrini-la-exigencia-y-la-ambici-n-es-igual-por-m-s-lesio.html"
+      "noticias/espana/deportes/2026-01-24-manolo-gonz-lez-al-var-no-se-si-han-ido-quiz-se-han-ido-al-d.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-01-24-ukraine-condemns-brutal-russian-strikes-ahead-of-second-day-.html"
+      "noticias/internacional/economia/2026-01-24-trump-threatens-canada-with-100-tariffs-over-china-trade-dea.html"
     ],
     "deportes": [
-      "noticias/internacional/deportes/2026-01-24-giannis-expects-to-miss-4-6-weeks-with-calf-injury.html"
+      "noticias/internacional/deportes/2026-01-24-morant-out-past-trade-deadline-with-elbow-sprain.html"
     ]
   }
 }
