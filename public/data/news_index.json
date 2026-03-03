@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-03-03-la-guardia-revolucionaria-de-ir-n-amenaza-con-atacar-cualqui.html"
+      "noticias/espana/politica/2026-03-03-israel-reivindica-bombardeos-contra-la-oficina-del-presiente.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-03-03-trump-quiere-replicar-el-modelo-venezolano-en-ir-n-y-no-desc.html"
+      "noticias/espana/economia/2026-03-03-israel-bombardea-beirut-y-teher-n-mientras-ir-n-extiende-su-.html"
+    ],
+    "deportes": [
+      "noticias/espana/deportes/2026-03-03-oso-pide-paso-tras-el-derbi.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-03-03-israel-strikes-lebanon-after-hezbollah-rocket-fire-as-iran-c.html"
+      "noticias/internacional/economia/2026-03-03-gas-and-oil-prices-soar-and-shares-tumble-as-crucial-shippin.html"
     ],
     "deportes": [
-      "noticias/internacional/deportes/2026-03-03-no-2-arizona-tops-isu-for-outright-big-12-title.html"
+      "noticias/internacional/deportes/2026-03-03-arizona-wins-big-12-lloyd-calls-out-soft-narrative.html"
     ]
   }
 }
