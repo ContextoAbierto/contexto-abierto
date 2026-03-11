@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-03-11-guerra-en-ir-n-directo-atacan-tres-buques-en-el-estrecho-de-.html"
+      "noticias/espana/politica/2026-03-11-trump-reitera-que-espa-a-no-coopera-en-defensa-y-vuelve-a-am.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-03-11-pedro-s-nchez-el-mundo-est-cambiando-pero-los-valores-y-prin.html"
+      "noticias/espana/economia/2026-03-11-trump-carga-de-nuevo-contra-espa-a-por-la-guerra-en-ir-n-no-.html"
+    ],
+    "deportes": [
+      "noticias/espana/deportes/2026-03-11-el-enigma-ramazani-europa-puede-que-s-y-puede-que-no-.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-03-11-g7-welcomes-potential-record-release-of-oil-reserves-as-pric.html"
+      "noticias/internacional/economia/2026-03-11-bowen-trump-has-called-for-an-iran-uprising-but-the-lessons-.html"
     ],
     "deportes": [
-      "noticias/internacional/deportes/2026-03-11--something-we-talk-about-forever-the-karmic-power-of-bam-ade.html"
+      "noticias/internacional/deportes/2026-03-11-live-tracking-nfl-free-agency-updates-on-signings-trades-cut.html"
     ]
   }
 }
