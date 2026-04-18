@@ -1,13 +1,13 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-04-18-trump-anuncia-que-eeuu-mantendr-su-bloqueo-sobre-ormuz-hasta.html"
+      "noticias/espana/politica/2026-04-18-trump-plantea-hacerse-con-el-material-nuclear-iran-y-adviert.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-04-18-trump-impone-un-alto-el-fuego-en-l-bano-entre-dudas-de-que-i.html"
+      "noticias/espana/economia/2026-04-18-el-anuncio-de-la-reapertura-de-ormuz-y-la-tregua-en-l-bano-s.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-04-18-uriarte-espera-a-ltima-hora-para-cerrar-su-n-mina-de-directi.html"
+      "noticias/espana/deportes/2026-04-18-tsunami-en-los-banquillos-de-primera.html"
     ]
   },
   "internacional": {
@@ -15,7 +15,7 @@
       "noticias/internacional/economia/2026-04-18-oil-prices-plunge-as-iran-says-strait-open-.html"
     ],
     "deportes": [
-      "noticias/internacional/deportes/2026-04-18-follow-live-magic-dominating-hornets-with-8-seed-in-sight.html"
+      "noticias/internacional/deportes/2026-04-18-suns-end-warriors-season-await-no-1-thunder.html"
     ]
   }
 }
