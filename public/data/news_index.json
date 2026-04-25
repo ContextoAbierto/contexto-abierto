@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-04-25-trump-pausa-la-guerra-con-la-negociaci-n-en-el-aire-y-el-pas.html"
+      "noticias/espana/politica/2026-04-25-trump-cancela-el-viaje-de-sus-negociadores-a-islamabad-y-ced.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-04-25-m-nica-garc-a-anuncia-que-quiere-ser-candidata-de-m-s-madrid.html"
+      "noticias/espana/economia/2026-04-25-trump-cancela-el-viaje-de-sus-negociadores-a-islamabad-despu.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-04-25-vecino-y-swedberg-se-unen-a-la-lista-de-bajas.html"
+      "noticias/espana/deportes/2026-04-25-el-valencia-acaricia-la-salvaci-n-con-el-guante-de-dimitriev.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-04-25-explosions-and-gunfire-as-armed-groups-launch-coordinated-at.html"
+      "noticias/internacional/economia/2026-04-25-explosions-and-gunfire-as-armed-groups-launch-co-ordinated-a.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-04-25-follow-along-in-espn-s-draftcast-analysis-for-every-pick.html"
     ]
   }
 }
