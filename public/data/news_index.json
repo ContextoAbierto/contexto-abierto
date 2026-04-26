@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-04-26-trump-cancela-el-viaje-de-sus-negociadores-a-islamabad-y-ced.html"
+      "noticias/espana/politica/2026-04-26-trump-es-evacuado-de-la-cena-de-corresponsales-tras-un-inten.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-04-26-trump-cancela-el-viaje-de-sus-negociadores-a-islamabad-despu.html"
+      "noticias/espana/economia/2026-04-26-trump-evacuado-de-la-cena-de-corresponsales-de-la-casa-blanc.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-04-26-osasuna-sevilla-el-sadar-entre-la-calma-y-el-caos-previa-an-.html"
+      "noticias/espana/deportes/2026-04-26-oviedo-elche-horario-y-d-nde-ver-hoy-en-tv-y-canal-del-parti.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-04-26-trump-cancels-us-envoys-trip-to-pakistan-for-talks-on-iran-w.html"
+      "noticias/internacional/economia/2026-04-26-what-it-was-like-in-the-room-as-shots-rang-out-at-correspond.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-04-26-kiper-s-grades-for-all-32-nfl-draft-classes-why-the-cowboys-.html"
     ]
   }
 }
