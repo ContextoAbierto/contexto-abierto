@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-04-27-trump-asegura-que-el-detenido-por-el-ataque-en-la-cena-de-co.html"
+      "noticias/espana/politica/2026-04-27-trump-asegura-que-la-violencia-pol-tica-siempre-ha-estado-pr.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-04-27-trump-afirma-que-el-atacante-de-la-cena-de-corresponsales-ex.html"
+      "noticias/espana/economia/2026-04-27-trump-usa-el-ataque-de-la-cena-de-corresponsales-para-reivin.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-04-27-el-celta-encadena-su-quinta-derrota.html"
+      "noticias/espana/deportes/2026-04-27--martillo-mart-nez-jugador-m-s-robado-y-sorpresa-mundial-.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-04-27-trump-and-officials-likely-targets-of-press-dinner-shooting-.html"
+      "noticias/internacional/economia/2026-04-27-suspected-gunman-at-washington-press-dinner-identified-as-31.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-04-27-west-takeaways-rockets-survive-game-4-to-keep-season-alive.html"
     ]
   }
 }
