@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-04-28-el-apag-n-cumple-un-a-o-y-tras-informes-y-comisiones-de-inve.html"
+      "noticias/espana/politica/2026-04-28-el-pp-vox-y-junts-derogan-el-decreto-ley-para-prorrogar-los-.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-04-28-el-gobierno-afronta-la-derrota-del-decreto-de-alquileres-per.html"
+      "noticias/espana/economia/2026-04-28-el-congreso-rechaza-la-pr-rroga-de-los-alquileres-con-el-vot.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-04-28-el-primer-bache-liguero-de-matarazzo-casi-no-tiene-trascende.html"
+      "noticias/espana/deportes/2026-04-28-el-sevillismo-se-conjura-al-rojo-para-la-final-ante-la-real-.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-04-28-suspect-charged-with-attempted-assassination-of-trump-at-was.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-04-28-east-playoff-takeaways-magic-take-3-1-series-lead-with-win-o.html"
+      "noticias/internacional/economia/2026-04-28-united-arab-emirates-to-quit-oil-cartel-opec.html"
     ]
   }
 }
