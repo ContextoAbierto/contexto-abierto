@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-04-28-la-fiscal-a-acusa-al-sospechoso-del-tiroteo-en-la-cena-de-co.html"
+      "noticias/espana/politica/2026-04-28-el-apag-n-cumple-un-a-o-y-tras-informes-y-comisiones-de-inve.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-04-28-la-casa-blanca-responsabiliza-a-los-medios-y-a-la-izquierda-.html"
+      "noticias/espana/economia/2026-04-28-el-gobierno-afronta-la-derrota-del-decreto-de-alquileres-per.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-04-28-cinco-jornadas-para-escapar-del-descenso.html"
+      "noticias/espana/deportes/2026-04-28-el-primer-bache-liguero-de-matarazzo-casi-no-tiene-trascende.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-04-28-melania-trump-urges-abc-to-take-stand-on-jimmy-kimmel-after-.html"
+      "noticias/internacional/economia/2026-04-28-suspect-charged-with-attempted-assassination-of-trump-at-was.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-04-28-east-playoff-takeaways-magic-take-3-1-series-lead-with-win-o.html"
     ]
   }
 }
