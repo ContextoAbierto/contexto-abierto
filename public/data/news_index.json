@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-04-27-la-fiscal-a-acusa-al-sospechoso-del-tiroteo-en-la-cena-de-co.html"
+      "noticias/espana/politica/2026-04-28-la-fiscal-a-acusa-al-sospechoso-del-tiroteo-en-la-cena-de-co.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-04-27-la-casa-blanca-responsabiliza-a-los-medios-y-a-la-izquierda-.html"
+      "noticias/espana/economia/2026-04-28-la-casa-blanca-responsabiliza-a-los-medios-y-a-la-izquierda-.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-04-27-lucas-boy-sufre-una-rotura-de-fibras-y-es-duda-para-acabar-l.html"
+      "noticias/espana/deportes/2026-04-28-cinco-jornadas-para-escapar-del-descenso.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-04-27-melania-trump-urges-abc-to-take-stand-on-jimmy-kimmel-after-.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-04-27-from-win-total-to-rotation-era-to-ohtani-s-war-predicting-th.html"
+      "noticias/internacional/economia/2026-04-28-melania-trump-urges-abc-to-take-stand-on-jimmy-kimmel-after-.html"
     ]
   }
 }
