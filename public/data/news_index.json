@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-04-29-el-supremo-escucha-a-balos-koldo-y-aldama-en-el-juicio-de-la.html"
+      "noticias/espana/politica/2026-04-29-aldama-sit-a-a-s-nchez-como-el-uno-en-una-organizaci-n-crimi.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-04-29-el-pnv-amenaza-con-retirar-su-apoyo-a-s-nchez-si-no-cuida-la.html"
+      "noticias/espana/economia/2026-04-29-aldama-trata-de-implicar-a-pedro-s-nchez-en-la-trama-corrupt.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-04-29-pedro-bigas-este-equipo-nunca-se-rinde-y-no-ha-dejado-de-cre.html"
+      "noticias/espana/deportes/2026-04-29-iago-aspas-da-el-visto-bueno-a-tener-una-estatua-en-el-exter.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-04-29-five-takeaways-from-the-king-s-historic-address-to-congress.html"
+      "noticias/internacional/economia/2026-04-29-former-us-officials-criticise-pentagon-silence-on-deadly-ira.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-04-29-ranking-the-100-best-picks-of-the-nfl-draft-what-.html"
     ]
   }
 }
