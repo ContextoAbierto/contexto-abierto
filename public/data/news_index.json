@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-04-28-el-pp-vox-y-junts-derogan-el-decreto-ley-para-prorrogar-los-.html"
+      "noticias/espana/politica/2026-04-29-el-pp-vox-y-junts-derogan-el-decreto-ley-para-prorrogar-los-.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-04-28-el-congreso-rechaza-la-pr-rroga-de-los-alquileres-con-el-vot.html"
+      "noticias/espana/economia/2026-04-29-sumar-presiona-al-psoe-para-recuperar-el-decreto-de-los-alqu.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-04-28-el-sevillismo-se-conjura-al-rojo-para-la-final-ante-la-real-.html"
+      "noticias/espana/deportes/2026-04-29-isco-no-entiendo-un-betis-sin-pellegrini-lo-que-ha-hecho-en-.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-04-28-united-arab-emirates-to-quit-oil-cartel-opec.html"
+      "noticias/internacional/economia/2026-04-29-comey-charged-with-threatening-trump-s-life-in-instagram-pos.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-04-29-sources-ncaa-tournaments-set-to-expand-to-76.html"
     ]
   }
 }
