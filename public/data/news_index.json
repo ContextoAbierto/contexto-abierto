@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-02-eeuu-anuncia-la-retirada-de-5-000-de-sus-soldados-de-alemani.html"
+      "noticias/espana/politica/2026-05-03-eeuu-anuncia-la-retirada-de-5-000-de-sus-soldados-de-alemani.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-02-trump-ordena-retirar-5-000-soldados-de-alemania-y-redobla-la.html"
+      "noticias/espana/economia/2026-05-03-trump-ordena-retirar-5-000-soldados-de-alemania-y-redobla-la.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-02-nico-provoca-la-tormenta-en-mendizorroza.html"
+      "noticias/espana/deportes/2026-05-03-betis-oviedo-horario-y-d-nde-ver-hoy-por-tv-y-online-el-part.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-02-germany-says-us-troop-withdrawal-foreseeable-as-nato-seeks-c.html"
+      "noticias/internacional/economia/2026-05-03-germany-says-us-troop-withdrawal-foreseeable-as-nato-seeks-c.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-03-76ers-embiid-vanquish-celtics-in-game-7-thriller.html"
     ]
   }
 }
