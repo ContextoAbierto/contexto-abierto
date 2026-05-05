@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-05-la-seguridad-social-supera-la-barrera-de-los-22-millones-de-.html"
+      "noticias/espana/politica/2026-05-05-la-oms-planea-que-el-crucero-con-hantavirus-vaya-a-canarias-.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-05-espa-a-supera-por-primera-vez-los-22-millones-de-trabajadore.html"
+      "noticias/espana/economia/2026-05-05-el-gobierno-acusa-al-pp-de-estar-en-connivencia-con-aldama-e.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-05-garc-a-plaza-esto-va-a-ser-sufrir-hasta-el-final-no-hemos-he.html"
+      "noticias/espana/deportes/2026-05-05-rup-rez-intenta-evitar-el-curso-en-blanco.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-05-explosion-at-china-fireworks-factory-kills-26-people.html"
+      "noticias/internacional/economia/2026-05-05-hantavirus-may-have-spread-between-passengers-on-cruise-ship.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-05-who-won-college-football-s-offseason-we-stack-all-68-power-4.html"
     ]
   }
 }
