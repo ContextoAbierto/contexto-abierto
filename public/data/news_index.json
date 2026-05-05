@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-04--balos-descarta-mordidas-de-aldama-y-difiere-de-los-94-000-e.html"
+      "noticias/espana/politica/2026-05-05--balos-descarta-mordidas-de-aldama-y-difiere-de-los-94-000-e.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-04-el-pp-rebaja-la-petici-n-de-pena-a-aldama-de-manera-que-evit.html"
+      "noticias/espana/economia/2026-05-05-el-pp-rebaja-la-petici-n-de-pena-a-aldama-para-intentar-que-.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-04-el-s-nchez-pizju-n-recibe-al-sevilla-con-ambiente-de-final.html"
+      "noticias/espana/deportes/2026-05-05-garc-a-plaza-esto-va-a-ser-sufrir-hasta-el-final-no-hemos-he.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-04-two-killed-and-many-injured-after-car-driven-into-crowd-in-g.html"
+      "noticias/internacional/economia/2026-05-05-us-strikes-iranian-fast-boats-as-iran-attacks-uae-oil-facili.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-05-tigers-skubal-to-have-surgery-on-left-elbow.html"
     ]
   }
 }
