@@ -1,10 +1,10 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-05--balos-descarta-mordidas-de-aldama-y-difiere-de-los-94-000-e.html"
+      "noticias/espana/politica/2026-05-05-la-seguridad-social-supera-la-barrera-de-los-22-millones-de-.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-05-el-pp-rebaja-la-petici-n-de-pena-a-aldama-para-intentar-que-.html"
+      "noticias/espana/economia/2026-05-05-espa-a-supera-por-primera-vez-los-22-millones-de-trabajadore.html"
     ],
     "deportes": [
       "noticias/espana/deportes/2026-05-05-garc-a-plaza-esto-va-a-ser-sufrir-hasta-el-final-no-hemos-he.html"
@@ -12,10 +12,7 @@
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-05-us-strikes-iranian-fast-boats-as-iran-attacks-uae-oil-facili.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-05-05-tigers-skubal-to-have-surgery-on-left-elbow.html"
+      "noticias/internacional/economia/2026-05-05-explosion-at-china-fireworks-factory-kills-26-people.html"
     ]
   }
 }
