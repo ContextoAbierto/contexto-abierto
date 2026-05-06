@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-06-espa-a-acuerda-con-la-oms-que-el-crucero-con-hantavirus-haga.html"
+      "noticias/espana/politica/2026-05-06-el-barco-mv-hondius-arribar-en-tres-d-as-a-canarias-y-los-14.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-06-el-crucero-del-hantavirus-desembarcar-en-canarias-tras-una-s.html"
+      "noticias/espana/economia/2026-05-06-espa-a-repatriar-desde-canarias-a-los-tripulantes-del-barco-.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-06-el-cta-reprende-al-linier-del-valencia-atl-tico-por-levantar.html"
+      "noticias/espana/deportes/2026-05-06-al-valencia-le-podr-an-salvar-todas-las-combinaciones-a-igua.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-06-trump-says-us-to-pause-operation-to-guide-vessels-through-st.html"
+      "noticias/internacional/economia/2026-05-06-oil-prices-drop-and-stock-markets-rise-after-reports-of-deal.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-06-updated-projections-for-all-30-mlb-teams-and-on-.html"
     ]
   }
 }
