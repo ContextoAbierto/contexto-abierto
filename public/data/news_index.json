@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-05-sanidad-descarta-que-el-crucero-con-hantavirus-arribe-en-can.html"
+      "noticias/espana/politica/2026-05-06-espa-a-acuerda-con-la-oms-que-el-crucero-con-hantavirus-haga.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-05-la-oms-evacuar-a-los-sospechosos-de-hantavirus-a-pa-ses-bajo.html"
+      "noticias/espana/economia/2026-05-06-el-crucero-del-hantavirus-desembarcar-en-canarias-tras-una-s.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-05-el-cta-reprende-al-linier-del-valencia-atl-tico-por-levantar.html"
+      "noticias/espana/deportes/2026-05-06-el-cta-reprende-al-linier-del-valencia-atl-tico-por-levantar.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-05-hantavirus-may-have-spread-between-passengers-on-cruise-ship.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-05-05-new-nfl-power-rankings-poll-we-ranked-all-32-team-.html"
+      "noticias/internacional/economia/2026-05-06-trump-says-us-to-pause-operation-to-guide-vessels-through-st.html"
     ]
   }
 }
