@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-07-el-barco-mv-hondius-arribar-en-tres-d-as-en-canarias-y-los-1.html"
+      "noticias/espana/politica/2026-05-07-trasladados-a-msterdam-los-dos-contagiados-con-hantavirus-qu.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-07-espa-a-repatriar-desde-canarias-a-los-tripulantes-del-crucer.html"
+      "noticias/espana/economia/2026-05-07-los-cient-ficos-avalan-que-el-barco-del-hantavirus-atraque-e.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-07-natan-sue-a-con-la-champions-y-explica-el-secreto-de-su-f-si.html"
+      "noticias/espana/deportes/2026-05-07-marcos-alonso-vuelve-ante-el-atl-tico.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-07-iran-considering-us-proposal-to-end-war-official-says.html"
+      "noticias/internacional/economia/2026-05-07-hantavirus-hit-cruise-ship-on-way-to-canary-islands-after-th.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-07-nba-playoff-takeaways-spurs-blow-out-wolves-by-38-.html"
     ]
   }
 }
