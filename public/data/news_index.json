@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-06-el-barco-mv-hondius-arribar-en-tres-d-as-en-canarias-y-los-1.html"
+      "noticias/espana/politica/2026-05-07-el-barco-mv-hondius-arribar-en-tres-d-as-en-canarias-y-los-1.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-06-espa-a-repatriar-desde-canarias-a-los-tripulantes-del-crucer.html"
+      "noticias/espana/economia/2026-05-07-espa-a-repatriar-desde-canarias-a-los-tripulantes-del-crucer.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-06-vuelta-al-trabajo-pendientes-de-los-dudosos.html"
+      "noticias/espana/deportes/2026-05-07-natan-sue-a-con-la-champions-y-explica-el-secreto-de-su-f-si.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-06-oil-prices-drop-and-stock-markets-rise-after-reports-of-deal.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-05-06-champions-league-semifinal-live-updates-bayern-mu-.html"
+      "noticias/internacional/economia/2026-05-07-iran-considering-us-proposal-to-end-war-official-says.html"
     ]
   }
 }
