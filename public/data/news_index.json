@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-08-hantavirus-directo-aisladas-de-forma-preventiva-en-chile-dos.html"
+      "noticias/espana/politica/2026-05-08-una-persona-est-aislada-en-alicante-tras-compartir-vuelo-con.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-08-23-pa-ses-coordinados-por-la-ue-y-la-oms-un-dispositivo-sin-.html"
+      "noticias/espana/economia/2026-05-08-sanidad-identifica-un-posible-caso-de-hantavirus-en-espa-a.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-08-si-el-cl-sico-fuera-una-multinacional-deportiva-cu-nto-factu.html"
+      "noticias/espana/deportes/2026-05-08-los-n-meros-de-la-lucha-por-la-salvaci-n.html"
     ]
   },
   "internacional": {
     "economia": [
       "noticias/internacional/economia/2026-05-08-trump-says-us-iran-ceasefire-still-in-place-after-exchange-o.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-05-08-takeaways-thunder-handle-lakers-in-game-2-win.html"
     ]
   }
 }
