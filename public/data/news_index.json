@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-07-la-oms-confirma-la-infecci-n-por-hantavirus-en-cinco-de-los-.html"
+      "noticias/espana/politica/2026-05-08-la-oms-confirma-la-infecci-n-por-hantavirus-en-cinco-de-los-.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-07-el-gobierno-podr-obligar-a-una-cuarentena-a-los-14-espa-oles.html"
+      "noticias/espana/economia/2026-05-08-el-gobierno-podr-obligar-a-una-cuarentena-a-los-14-espa-oles.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-07--ngel-torres-sobre-los-l-os-de-vestuario-del-real-madrid-el-.html"
+      "noticias/espana/deportes/2026-05-08-el-sue-o-de-volver-a-la-champions-m-s-cerca-que-nunca-para-e.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-07-hantavirus-outbreak-on-cruise-ship-not-start-of-pandemic-un-.html"
+      "noticias/internacional/economia/2026-05-08-trump-says-us-iran-ceasefire-still-in-place-after-exchange-o.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-08-follow-live-lakers-thunder-battle-in-game-2.html"
     ]
   }
 }
