@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-09-ingresada-en-un-hospital-de-alicante-la-mujer-que-comparti-v.html"
+      "noticias/espana/politica/2026-05-09-el-mv-hondius-llegar-entre-las-4-00-y-las-6-00-del-domingo-y.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-09--odisea-atl-ntica-el-crucero-de-lujo-que-termin-en-una-crisi.html"
+      "noticias/espana/economia/2026-05-09-el-mv-hondius-llegar-entre-las-4-y-las-6-de-la-madrugada-al-.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-09-el-gol-del-valencia-bajo-m-nimos-hist-ricos-que-da-muestras-.html"
+      "noticias/espana/deportes/2026-05-09-julen-agirrezabala-vuelve-al-equipo-tras-encadenar-dos-lesio.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-09-trump-says-russia-and-ukraine-to-observe-three-day-ceasefire.html"
+      "noticias/internacional/economia/2026-05-09-putin-denounces-nato-at-scaled-back-victory-day-parade.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-09-takeaways-from-spurs-timberwolves-game-3.html"
     ]
   }
 }
