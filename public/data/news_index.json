@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-13-hantavirus-directo-el-espa-ol-ingresado-en-el-hospital-g-mez.html"
+      "noticias/espana/politica/2026-05-13-trump-llega-a-pek-n-para-su-cumbre-de-dos-d-as-que-le-llevar.html"
     ],
     "economia": [
       "noticias/espana/economia/2026-05-13-ayuso-alega-ante-el-supremo-que-la-regularizaci-n-de-migrant.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-13-edin-terzic-est-acostumbrado-a-manejarse-con-m-s-de-30-jugad.html"
+      "noticias/espana/deportes/2026-05-13-javi-rueda-queremos-volver-a-estar-en-europa-.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-13-a-decade-on-trump-returns-to-a-stronger-and-more-assertive-c.html"
+      "noticias/internacional/economia/2026-05-13-trump-arrives-in-china-for-high-stakes-meeting-with-xi-jinpi.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-13--it-s-up-to-the-lakers-what-lebron-needs-to-return-to-l-a-an.html"
     ]
   }
 }
