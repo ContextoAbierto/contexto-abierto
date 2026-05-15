@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-14-trump-dice-que-xi-se-ha-comprometido-a-no-suministrar-equipa.html"
+      "noticias/espana/politica/2026-05-15-trump-dice-que-xi-se-ha-comprometido-a-no-suministrar-equipa.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-14-el-ministro-de-sanidad-brit-nico-dimite-e-intenta-forzar-una.html"
+      "noticias/espana/economia/2026-05-15-el-ministro-de-sanidad-brit-nico-dimite-e-intenta-forzar-una.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-14-corber-n-no-tenemos-puntos-que-garanticen-el-objetivo-de-sal.html"
+      "noticias/espana/deportes/2026-05-15-aerol-neas-jon-mart-n-permite-el-empate.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-14-flattery-and-fanfare-as-trump-welcomed-to-china-but-thorny-i.html"
+      "noticias/internacional/economia/2026-05-15-flattery-and-fanfare-as-trump-welcomed-to-china-but-thorny-i.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-15-pats-seahawks-sb-rematch-to-kick-off-26-season.html"
     ]
   }
 }
