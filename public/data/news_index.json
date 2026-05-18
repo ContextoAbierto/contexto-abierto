@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-18-moreno-pierde-la-mayor-a-absoluta-y-no-evita-el-l-o-con-vox-.html"
+      "noticias/espana/politica/2026-05-18-andaluc-a-directo-moreno-defiende-un-gobierno-en-solitario-y.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-18-moreno-se-enfrenta-a-una-investidura-inviable-si-no-pacta-co.html"
+      "noticias/espana/economia/2026-05-18-feij-o-pone-rumbo-a-las-generales-tras-el-ciclo-electoral-qu.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-18-la-bonita-petici-n-de-i-igo-p-rez-a-sus-futbolistas-jugad-co.html"
+      "noticias/espana/deportes/2026-05-18-la-permanencia-con-m-s-pendiente-del-alav-s.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-18-trump-warns-clock-is-ticking-for-iran-as-peace-progress-stal.html"
+      "noticias/internacional/economia/2026-05-18-judge-rules-gun-writings-are-admissible-in-luigi-mangione-s-.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-18-perfect-team-fits-for-14-remaining-nfl-free-agents-.html"
     ]
   }
 }
