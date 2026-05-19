@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-18-andaluc-a-directo-moreno-defiende-un-gobierno-en-solitario-y.html"
+      "noticias/espana/politica/2026-05-19-moreno-apuesta-por-un-gobierno-del-pp-en-solitario-y-avisa-a.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-18-feij-o-pone-rumbo-a-las-generales-tras-el-ciclo-electoral-qu.html"
+      "noticias/espana/economia/2026-05-19-feij-o-pone-rumbo-a-las-generales-tras-el-ciclo-electoral-qu.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-18-el-marido-de-erika.html"
+      "noticias/espana/deportes/2026-05-19-el-marido-de-erika.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-18-at-least-100-dead-in-ebola-outbreak-as-us-doctor-working-in-.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-05-18-kram-predicts-the-historic-spurs-thunder-series-w-.html"
+      "noticias/internacional/economia/2026-05-19-trump-says-he-called-off-new-iran-attack-at-request-of-gulf-.html"
     ]
   }
 }
