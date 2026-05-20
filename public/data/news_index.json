@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-19-la-presunta-trama-de-plus-ultra-ve-a-a-zapatero-como-su-pana.html"
+      "noticias/espana/politica/2026-05-20-la-presunta-trama-de-plus-ultra-ve-a-a-zapatero-como-su-pana.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-19-el-juez-calama-califica-a-zapatero-de-n-cleo-decisor-de-la-t.html"
+      "noticias/espana/economia/2026-05-20-el-juez-calama-califica-a-zapatero-de-n-cleo-decisor-de-la-t.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-19-quilindschy-hartman-podr-a-ser-el-primer-refuerzo-perico.html"
+      "noticias/espana/deportes/2026-05-20-quilindschy-hartman-podr-a-ser-el-primer-refuerzo-perico.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-19--ebola-has-tortured-us-fear-grips-eastern-dr-congo-as-deadly.html"
+      "noticias/internacional/economia/2026-05-20--ebola-has-tortured-us-fear-grips-eastern-dr-congo-as-deadly.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-20-kidd-out-as-mavericks-coach-after-five-seasons.html"
     ]
   }
 }
