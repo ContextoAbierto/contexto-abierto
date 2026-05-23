@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-23-zapatero-y-su-esposa-comparten-una-cuenta-bancaria-que-recib.html"
+      "noticias/espana/politica/2026-05-23-los-indicios-del-juez-para-imputar-a-zapatero-estructura-jer.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-23-el-supremo-tumba-el-intento-de-ayuso-y-vox-de-suspender-la-r.html"
+      "noticias/espana/economia/2026-05-23-quince-d-as-sin-tregua-zapatero-balos-cerd-n-y-el-juicio-a-s.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-23-real-madrid-athletic-el-fin-por-fin-de-la-pesadilla.html"
+      "noticias/espana/deportes/2026-05-23-betis-levante-horario-y-d-nde-ver-hoy-por-tv-y-online-el-par.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-23-russia-s-putin-vows-retaliation-after-accusing-ukraine-of-hi.html"
+      "noticias/internacional/economia/2026-05-23-at-least-90-dead-in-chinese-coal-mine-explosion-state-media-.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-23-nba-playoff-takeaways-thunder-steal-game-3-on-the-.html"
     ]
   }
 }
