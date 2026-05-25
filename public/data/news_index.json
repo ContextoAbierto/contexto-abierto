@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-24-el-gobierno-expectante-ante-la-declaraci-n-judicial-de-zapat.html"
+      "noticias/espana/politica/2026-05-25-el-gobierno-expectante-ante-la-declaraci-n-judicial-de-zapat.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-24-dos-empresas-fallidas-envenenan-el-futuro-judicial-de-zapate.html"
+      "noticias/espana/economia/2026-05-25-dos-empresas-fallidas-envenenan-el-futuro-judicial-de-zapate.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-24-s-lo-barcelona-y-real-madrid-han-perdido-menos-partidos-que-.html"
+      "noticias/espana/deportes/2026-05-25-gudelj-espera-al-sevilla-siempre-va-a-tener-prioridad-.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-24-trump-tells-us-negotiators-not-to-rush-into-deal-with-iran.html"
+      "noticias/internacional/economia/2026-05-25-trump-tells-us-negotiators-not-to-rush-into-deal-with-iran.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-25-takeaways-spurs-rout-thunder-to-take-game-4.html"
     ]
   }
 }
