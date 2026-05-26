@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-26-la-polic-a-incaut-relojes-collares-pulseras-y-otras-joyas-de.html"
+      "noticias/espana/politica/2026-05-26-la-polic-a-vincul-unas-anotaciones-del-socio-de-zapatero-con.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-26-la-polic-a-acusa-a-las-hijas-de-zapatero-de-emitir-facturas-.html"
+      "noticias/espana/economia/2026-05-26-el-sumario-del-caso-zapatero-atribuye-a-las-hijas-del-presid.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-26-marcelino-veo-bastante-dif-cil-entrenar-en-espa-a-la-pr-xima.html"
+      "noticias/espana/deportes/2026-05-26-el-betis-apunta-al-canterano-manu-gonz-lez-para-completar-la.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-26-us-military-says-it-has-launched-new-strikes-on-southern-ira.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-05-26-11-straight-playoff-wins-and-a-culture-reset-the-.html"
+      "noticias/internacional/economia/2026-05-26-us-launches-new-strikes-on-iran-targeting-missile-sites-and-.html"
     ]
   }
 }
