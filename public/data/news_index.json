@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-25-la-polic-a-incaut-relojes-collares-pulseras-y-otras-joyas-de.html"
+      "noticias/espana/politica/2026-05-26-la-polic-a-incaut-relojes-collares-pulseras-y-otras-joyas-de.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-25-la-polic-a-acusa-a-las-hijas-de-zapatero-de-emitir-facturas-.html"
+      "noticias/espana/economia/2026-05-26-la-polic-a-acusa-a-las-hijas-de-zapatero-de-emitir-facturas-.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-25-marcelino-veo-bastante-dif-cil-entrenar-en-espa-a-la-pr-xima.html"
+      "noticias/espana/deportes/2026-05-26-marcelino-veo-bastante-dif-cil-entrenar-en-espa-a-la-pr-xima.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-25-deal-with-us-not-imminent-iran-says.html"
+      "noticias/internacional/economia/2026-05-26-us-military-says-it-has-launched-new-strikes-on-southern-ira.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-26-11-straight-playoff-wins-and-a-culture-reset-the-.html"
     ]
   }
 }
