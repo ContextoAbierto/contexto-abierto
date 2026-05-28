@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-28-puente-pide-dejar-trabajar-al-juez-pero-ve-un-intento-de-der.html"
+      "noticias/espana/politica/2026-05-28-s-nchez-pide-comparecer-en-el-congreso-por-las-ltimas-invest.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-28-fern-ndez-d-az-contradice-a-su-n-mero-dos-y-declara-que-supo.html"
+      "noticias/espana/economia/2026-05-28-pedro-s-nchez-comparecer-en-el-congreso-a-petici-n-propia-pa.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-28-las-confesiones-de-le-normand-el-accidente-que-caus-la-muert.html"
+      "noticias/espana/deportes/2026-05-28-trejo-se-despide-del-rayo-me-voy-con-el-coraz-n-lleno-de-rec.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-28-are-us-and-iran-close-to-peace-or-sliding-back-to-war-.html"
+      "noticias/internacional/economia/2026-05-28-gaza-city-hospitals-say-several-killed-in-strike-as-israel-t.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-28-how-a-photographer-captured-nolan-ryan-s-bloody-jersey-and-c.html"
     ]
   }
 }
