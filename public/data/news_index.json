@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-30-los-jueces-rastrean-el-liderazgo-de-cerd-n-en-ama-os-de-obra.html"
+      "noticias/espana/politica/2026-05-30-vigo-se-vuelca-con-las-fuerzas-armadas-en-un-desfile-que-bri.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-30-el-pp-aleja-la-moci-n-de-censura-y-antepone-desgastar-al-gob.html"
+      "noticias/espana/economia/2026-05-30-los-partidos-de-sumar-se-reivindican-como-la-izquierda-limpi.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-30-mercado-de-fichajes-descubre-los-chollos-secretos-del-mundia.html"
+      "noticias/espana/deportes/2026-05-30-manu-fajardo-objetivo-del-milan.html"
     ]
   },
   "internacional": {
     "economia": [
       "noticias/internacional/economia/2026-05-30-no-deal-announced-after-trump-meeting-to-make-final-determin.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-30-grades-and-takeaways-from-hurricanes-series-clinc-.html"
     ]
   }
 }
