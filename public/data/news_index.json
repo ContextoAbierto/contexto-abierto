@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-05-29-el-juez-da-al-pp-el-tim-n-de-las-acusaciones-populares-del-c.html"
+      "noticias/espana/politica/2026-05-30-el-juez-da-al-pp-el-tim-n-de-las-acusaciones-populares-del-c.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-05-29-trump-agrava-la-confusi-n-en-torno-al-acuerdo-con-ir-n-en-ot.html"
+      "noticias/espana/economia/2026-05-30-trump-agrava-la-confusi-n-en-torno-al-acuerdo-con-ir-n-en-ot.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-05-29-el-elche-se-cuela-en-el-troleo-del-atl-tico-al-bar-a-ni-bols.html"
+      "noticias/espana/deportes/2026-05-30-el-elche-se-cuela-en-el-troleo-del-atl-tico-al-bar-a-ni-bols.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-05-29--poison-seller-who-sold-toxic-chemicals-online-to-people-acr.html"
+      "noticias/internacional/economia/2026-05-30--poison-seller-who-sold-toxic-chemicals-online-to-people-acr.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-05-30-sorsby-bet-on-iu-at-least-40-times-as-hoosiers-qb.html"
     ]
   }
 }
