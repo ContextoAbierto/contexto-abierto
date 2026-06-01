@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-01-s-nchez-admite-problemas-y-tropiezos-pero-avisa-a-la-oposici.html"
+      "noticias/espana/politica/2026-06-01-feij-o-ve-un-peque-o-movimiento-en-los-socios-del-psoe-184-d.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-01-s-nchez-ante-las-juventudes-socialistas-mientras-la-oposici-.html"
+      "noticias/espana/economia/2026-06-01-el-juez-pedraz-imputa-al-jefe-de-la-udef-con-el-pp-por-la-gu.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-01-peter-lim-reaparece-en-budapest-junto-a-nasser-al-khelaifi-e.html"
+      "noticias/espana/deportes/2026-06-01-dur-simo-comunicado-de-los-principales-accionistas-del-sevil.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-01-israel-seizes-castle-in-lebanon-as-it-expands-ground-offensi.html"
+      "noticias/internacional/economia/2026-06-01-us-says-it-struck-iranian-radar-sites-as-kuwait-reports-miss.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-01-the-storylines-and-matchups-that-will-define-the-2-.html"
     ]
   }
 }
