@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-03-la-uco-apunta-que-leire-d-ez-se-vio-con-la-jefa-de-la-guardi.html"
+      "noticias/espana/politica/2026-06-03-la-uco-apunta-que-d-ez-se-vio-con-la-jefa-de-la-guardia-civi.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-03-la-uco-ubica-a-santos-cerd-n-al-frente-de-la-trama-para-desa.html"
+      "noticias/espana/economia/2026-06-03-la-uco-atribuye-las-investigaciones-dentro-de-la-guardia-civ.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-03-monchi-el-objetivo-ha-de-ser-consolidarlo-en-la-parte-alta-d.html"
+      "noticias/espana/deportes/2026-06-03-enrique-riquelme-en-directo-entrevista-en-el-hormiguero-del-.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-03-one-killed-and-dozens-injured-in-iranian-drone-strikes-on-ku.html"
+      "noticias/internacional/economia/2026-06-03-israeli-strikes-kill-nine-in-lebanon-as-hezbollah-fires-rock.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-03--none-of-us-know-what-the-hell-we-re-going-to-do-t-.html"
     ]
   }
 }
