@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-04-la-presidenta-del-psoe-fue-informada-por-leire-d-ez-de-gesti.html"
+      "noticias/espana/politica/2026-06-04-la-uco-solicita-al-juez-del-caso-leire-d-ez-que-requiera-los.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-04-david-s-nchez-niega-haber-influido-en-la-contrataci-n-de-su-.html"
+      "noticias/espana/economia/2026-06-04-el-ex-n-mero-dos-de-interior-con-el-pp-dijo-a-leire-d-ez-que.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-04-gelabert-un-jugador-de-primera-en-el-sporting.html"
+      "noticias/espana/deportes/2026-06-04-florentino-p-rez-en-horizonte-en-directo-anuncio-importante-.html"
     ]
   },
   "internacional": {
     "economia": [
       "noticias/internacional/economia/2026-06-04-hezbollah-rejects-renewed-ceasefire-agreed-by-israel-and-leb.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-04-passan-s-early-trade-deadline-preview-for-all-30-m-.html"
     ]
   }
 }
