@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-04-la-uco-apunta-que-d-ez-se-vio-con-la-jefa-de-la-guardia-civi.html"
+      "noticias/espana/politica/2026-06-04-la-uco-registra-la-empresa-tubos-reunidos-y-pide-informaci-n.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-04-la-uco-atribuye-las-investigaciones-dentro-de-la-guardia-civ.html"
+      "noticias/espana/economia/2026-06-04-david-s-nchez-niega-haber-influido-en-la-contrataci-n-de-su-.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-04-enrique-riquelme-en-directo-entrevista-en-el-hormiguero-del-.html"
+      "noticias/espana/deportes/2026-06-04-akor-adams-no-se-quita-del-foco.html"
     ]
   },
   "internacional": {
     "economia": [
       "noticias/internacional/economia/2026-06-04-israel-and-lebanon-agree-to-implement-ceasefire-if-hezbollah.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-06-04-knicks-stay-hot-steal-game-1-behind-brunson-s-30.html"
     ]
   }
 }
