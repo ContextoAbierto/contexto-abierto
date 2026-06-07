@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-06-visita-del-papa-a-madrid-2026-en-directo-le-n-xiv-apela-a-de.html"
+      "noticias/espana/politica/2026-06-07-visita-del-papa-a-madrid-2026-en-directo-le-n-xiv-invita-a-l.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-06-el-papa-alerta-contra-los-enfoques-identitarios-y-divisivos-.html"
+      "noticias/espana/economia/2026-06-07-el-papa-alerta-contra-los-enfoques-identitarios-y-divisivos-.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-06-el-presidente-de-independiente-del-valle-asegura-que-patrik-.html"
+      "noticias/espana/deportes/2026-06-07-monchi-vi-a-sergio-ramos-muy-ilusionado-en-la-rueda-de-prens.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-06-ukrainian-drones-target-st-petersburg-in-attack-russia-calls.html"
+      "noticias/internacional/economia/2026-06-07-ukrainian-drones-target-st-petersburg-in-attack-russia-calls.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-07-marner-makes-cup-history-with-fastest-hat-trick.html"
     ]
   }
 }
