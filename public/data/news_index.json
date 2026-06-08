@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-08-le-n-xiv-critica-en-el-congreso-la-descalificaci-n-permanent.html"
+      "noticias/espana/politica/2026-06-08-tercer-d-a-del-papa-en-espa-a-critica-en-el-congreso-la-desc.html"
     ],
     "economia": [
       "noticias/espana/economia/2026-06-08-la-fiscal-a-pide-la-absoluci-n-de-david-s-nchez-y-carga-cont.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-08-starfelt-estar-en-el-mundial.html"
+      "noticias/espana/deportes/2026-06-08-el-villarreal-presenta-su-nueva-piel-con-el-agua-y-mikautadz.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-08-iran-releases-footage-of-missiles-launched-at-israel.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-06-08-sorsby-granted-injunction-eligible-to-play-in-26-.html"
+      "noticias/internacional/economia/2026-06-08-iran-and-israel-say-they-have-halted-strikes-after-first-exc.html"
     ]
   }
 }
