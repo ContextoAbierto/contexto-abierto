@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-08-visita-del-papa-a-madrid-2026-en-directo-le-n-xiv-reivindica.html"
+      "noticias/espana/politica/2026-06-08-papa-directo-le-n-xiv-pide-a-obispos-responder-a-la-plaga-de.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-08-el-papa-lanza-otro-recado-a-los-ultras-y-denuncia-a-los-que-.html"
+      "noticias/espana/economia/2026-06-08-operaci-n-cirbelia-la-investigaci-n-de-la-uco-a-la-pareja-de.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-08-muriqi-con-pie-y-medio-en-el-fenerbah-e.html"
+      "noticias/espana/deportes/2026-06-08-thomas-meunier-el-lateral-que-corber-n-ha-elegido-paso-a-pas.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-08-israel-strikes-beirut-suburb-days-after-us-brokered-truce.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-06-08--a-dream-korda-wins-coveted-u-s-women-s-open.html"
+      "noticias/internacional/economia/2026-06-08-at-least-19-dead-after-major-earthquake-strikes-southern-phi.html"
     ]
   }
 }
