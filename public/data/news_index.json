@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-08-papa-directo-le-n-xiv-pide-a-obispos-responder-a-la-plaga-de.html"
+      "noticias/espana/politica/2026-06-08-le-n-xiv-critica-en-el-congreso-la-descalificaci-n-permanent.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-08-operaci-n-cirbelia-la-investigaci-n-de-la-uco-a-la-pareja-de.html"
+      "noticias/espana/economia/2026-06-08-la-fiscal-a-pide-la-absoluci-n-de-david-s-nchez-y-carga-cont.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-08-thomas-meunier-el-lateral-que-corber-n-ha-elegido-paso-a-pas.html"
+      "noticias/espana/deportes/2026-06-08-starfelt-estar-en-el-mundial.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-08-at-least-19-dead-after-major-earthquake-strikes-southern-phi.html"
+      "noticias/internacional/economia/2026-06-08-iran-releases-footage-of-missiles-launched-at-israel.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-08-sorsby-granted-injunction-eligible-to-play-in-26-.html"
     ]
   }
 }
