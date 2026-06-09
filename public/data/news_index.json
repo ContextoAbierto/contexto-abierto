@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-09-el-juez-que-investiga-a-zapatero-pide-a-eeuu-usar-el-conteni.html"
+      "noticias/espana/politica/2026-06-09-le-n-xiv-lamenta-los-feminicidios-y-llama-a-abordar-entre-to.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-09-eeuu-tard-cinco-a-os-en-enviar-a-espa-a-los-chats-del-empres.html"
+      "noticias/espana/economia/2026-06-09-trump-confirma-que-ir-n-ha-derribado-un-helic-ptero-apache-y.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-09-m-s-de-4000-granotas-renuevan-su-pase-el-primer-d-a-de-campa.html"
+      "noticias/espana/deportes/2026-06-09-calero-y-el-oviedo-unidos-y-con-el-objetivo-de-segundas-part.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-09-sea-drone-rescues-us-army-helicopter-crew-near-strait-of-hor.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-06-09-32-nfl-teams-32-unanswered-qb-questions-graziano-.html"
+      "noticias/internacional/economia/2026-06-09-trump-says-iran-shot-down-us-helicopter-and-vows-to-respond.html"
     ]
   }
 }
