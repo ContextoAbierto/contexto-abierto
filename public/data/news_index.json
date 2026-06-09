@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-09-gallardo-reitera-su-inocencia-y-lamenta-el-juicio-medi-tico-.html"
+      "noticias/espana/politica/2026-06-09-el-juez-que-investiga-a-zapatero-pide-a-eeuu-usar-el-conteni.html"
     ],
     "economia": [
       "noticias/espana/economia/2026-06-09-eeuu-tard-cinco-a-os-en-enviar-a-espa-a-los-chats-del-empres.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-09-el-sevilla-arrancar-la-pretemporada-el-3-de-julio-a-las-rden.html"
+      "noticias/espana/deportes/2026-06-09-m-s-de-4000-granotas-renuevan-su-pase-el-primer-d-a-de-campa.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-09-trump-tells-bbc-netanyahu-did-not-defy-him.html"
+      "noticias/internacional/economia/2026-06-09-sea-drone-rescues-us-army-helicopter-crew-near-strait-of-hor.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-09-32-nfl-teams-32-unanswered-qb-questions-graziano-.html"
     ]
   }
 }
