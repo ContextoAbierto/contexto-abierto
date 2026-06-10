@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-10-la-fiscal-a-admite-al-juez-dos-reuniones-de-un-excargo-de-ga.html"
+      "noticias/espana/politica/2026-06-10-zapatero-reclama-al-juez-que-pida-a-eeuu-informaci-n-sobre-e.html"
     ],
     "economia": [
       "noticias/espana/economia/2026-06-10-zapatero-pide-al-juez-que-reclame-m-s-informaci-n-a-eeuu-sob.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-10-el-mundial-m-s-amarillo.html"
+      "noticias/espana/deportes/2026-06-10-el-getafe-cambia-el-d-a-del-padre-para-anunciar-la-renovaci-.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-10-trump-and-iran-trade-new-threats-after-strikes-exchanged.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-06-10-world-cup-predictions-19-espn-experts-make-their-.html"
+      "noticias/internacional/economia/2026-06-10-trump-says-us-will-hit-iran-hard-again-today.html"
     ]
   }
 }
