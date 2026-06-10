@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-09-le-n-xiv-lamenta-los-feminicidios-y-llama-a-abordar-entre-to.html"
+      "noticias/espana/politica/2026-06-10-eeuu-ataca-ir-n-en-leg-tima-defensa-por-el-derribo-de-un-hel.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-09-trump-confirma-que-ir-n-ha-derribado-un-helic-ptero-apache-y.html"
+      "noticias/espana/economia/2026-06-10-eeuu-anuncia-una-oleada-de-ataques-contra-ir-n-tras-el-derri.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-09-calero-y-el-oviedo-unidos-y-con-el-objetivo-de-segundas-part.html"
+      "noticias/espana/deportes/2026-06-10-el-oviedo-y-calero-llegan-a-un-acuerdo-total-para-entrenar-a.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-09-trump-says-iran-shot-down-us-helicopter-and-vows-to-respond.html"
+      "noticias/internacional/economia/2026-06-10-inside-myanmar-rebels-are-losing-ground-as-military-forces-m.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-10-staal-nets-wild-winner-as-hurricanes-even-series.html"
     ]
   }
 }
