@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-10-feij-o-pide-a-s-nchez-dimitir-y-no-estirar-esta-basura-y-el-.html"
+      "noticias/espana/politica/2026-06-10-la-fiscal-a-admite-al-juez-dos-reuniones-de-un-excargo-de-ga.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-10-feij-o-llama-a-s-nchez-p-s-por-las-agendas-de-leire-d-ez-y-e.html"
+      "noticias/espana/economia/2026-06-10-zapatero-pide-al-juez-que-reclame-m-s-informaci-n-a-eeuu-sob.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-10-el-villarreal-renueva-a-sus-jefes-de-la-cantera.html"
+      "noticias/espana/deportes/2026-06-10-el-mundial-m-s-amarillo.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-10-inside-myanmar-rebels-are-losing-ground-as-military-forces-m.html"
+      "noticias/internacional/economia/2026-06-10-trump-and-iran-trade-new-threats-after-strikes-exchanged.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-10-world-cup-predictions-19-espn-experts-make-their-.html"
     ]
   }
 }
