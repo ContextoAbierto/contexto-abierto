@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-10-zapatero-reclama-al-juez-que-pida-a-eeuu-informaci-n-sobre-e.html"
+      "noticias/espana/politica/2026-06-11-zapatero-reclama-al-juez-que-pida-a-eeuu-informaci-n-sobre-e.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-10-zapatero-pide-al-juez-que-reclame-m-s-informaci-n-a-eeuu-sob.html"
+      "noticias/espana/economia/2026-06-11-zapatero-pide-al-juez-que-reclame-m-s-informaci-n-a-eeuu-sob.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-10-el-getafe-cambia-el-d-a-del-padre-para-anunciar-la-renovaci-.html"
+      "noticias/espana/deportes/2026-06-11-el-getafe-cambia-el-d-a-del-padre-para-anunciar-la-renovaci-.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-10-trump-says-us-will-hit-iran-hard-again-today.html"
+      "noticias/internacional/economia/2026-06-11-tehran-targets-us-gulf-bases-after-american-forces-launch-ne.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-11-mahomes-to-make-over-500m-in-reworked-deal.html"
     ]
   }
 }
