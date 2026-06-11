@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-11-zapatero-reclama-al-juez-que-pida-a-eeuu-informaci-n-sobre-e.html"
+      "noticias/espana/politica/2026-06-11-visita-del-papa-directo-le-n-xiv-aterriza-en-canarias.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-11-zapatero-pide-al-juez-que-reclame-m-s-informaci-n-a-eeuu-sob.html"
+      "noticias/espana/economia/2026-06-11-el-juez-autoriza-a-la-uco-a-acceder-a-las-cuentas-de-la-pare.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-11-el-getafe-cambia-el-d-a-del-padre-para-anunciar-la-renovaci-.html"
+      "noticias/espana/deportes/2026-06-11-el-athletic-abrir-la-pretemporada-frente-a-un-rival-vizca-no.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-11-tehran-targets-us-gulf-bases-after-american-forces-launch-ne.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-06-11-mahomes-to-make-over-500m-in-reworked-deal.html"
+      "noticias/internacional/economia/2026-06-11-us-and-iran-exchange-strikes-across-middle-east-for-second-d.html"
     ]
   }
 }
