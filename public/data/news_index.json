@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-12-el-juez-investiga-a-zapatero-por-presunto-delito-fiscal-y-de.html"
+      "noticias/espana/politica/2026-06-13-el-juez-investiga-a-zapatero-por-presunto-delito-fiscal-y-de.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-12-pakist-n-confirma-que-eeuu-e-ir-n-han-alcanzado-un-texto-def.html"
+      "noticias/espana/economia/2026-06-13-pakist-n-confirma-que-eeuu-e-ir-n-han-alcanzado-un-texto-def.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-12-terrats-una-opci-n-para-el-getafe.html"
+      "noticias/espana/deportes/2026-06-13-terrats-una-opci-n-para-el-getafe.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-12-iran-says-deal-to-end-fighting-with-us-has-never-been-closer.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-06-12-oklahoma-ag-calls-on-big-12-to-suspend-sorsby.html"
+      "noticias/internacional/economia/2026-06-13-deal-to-end-fighting-would-lead-to-hormuz-reopening-iran-say.html"
     ]
   }
 }
