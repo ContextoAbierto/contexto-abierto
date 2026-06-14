@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-14-trump-celebra-su-80-cumplea-os-con-la-expectativa-de-la-espe.html"
+      "noticias/espana/politica/2026-06-14-israel-ataca-el-basti-n-de-hezbol-en-beirut-durante-un-momen.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-14-el-viaje-de-la-prueba-clave-contra-zapatero-de-eeuu-a-la-aud.html"
+      "noticias/espana/economia/2026-06-14-ir-n-no-da-por-cerrada-la-firma-del-acuerdo-de-paz-con-eeuu-.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-14-la-primera-pretemporada-de-matarazzo-coge-forma.html"
+      "noticias/espana/deportes/2026-06-14-vargas-salta-al-escaparate-mundial.html"
     ]
   },
   "internacional": {
     "economia": [
       "noticias/internacional/economia/2026-06-14-trump-says-us-iran-deal-to-be-signed-on-sunday-as-tehran-cas.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-14-the-knicks-are-deserving-champs-but-their-path-to-.html"
     ]
   }
 }
