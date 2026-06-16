@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-15-espa-a-se-estrella-en-su-estreno.html"
+      "noticias/espana/politica/2026-06-16-la-acusaci-n-mantiene-la-petici-n-de-retirada-de-pasaporte-p.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-15-el-abogado-de-bego-a-g-mez-ante-el-juez-peinado-esto-es-un-p.html"
+      "noticias/espana/economia/2026-06-16-el-abogado-de-bego-a-g-mez-ante-el-juez-peinado-esto-es-un-p.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-15-el-birmingham-hace-efectiva-la-compra-de-jhon-sol-s.html"
+      "noticias/espana/deportes/2026-06-16-luis-carri-n-muy-cerca-del-mallorca.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-15-bowen-iran-deal-ends-trump-s-war-that-revealed-limit-of-us-d.html"
+      "noticias/internacional/economia/2026-06-16-trump-says-deal-to-end-war-with-iran-already-signed-and-deta.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-16-sources-sorsby-set-to-enter-supplemental-draft.html"
     ]
   }
 }
