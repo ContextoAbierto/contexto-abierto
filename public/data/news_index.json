@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-19-zapatero-defendi-ante-el-juez-la-legalidad-de-sus-actividade.html"
+      "noticias/espana/politica/2026-06-19-el-juez-peinado-abre-una-nueva-pieza-en-el-caso-bego-a-g-mez.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-19-los-audios-de-la-declaraci-n-de-zapatero-ante-el-juez-no-int.html"
+      "noticias/espana/economia/2026-06-19-el-juez-peinado-abre-una-nueva-investigaci-n-en-el-caso-de-b.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-19-sos-sevilla-fc-el-sevillismo-protagoniza-una-manifestaci-n-h.html"
+      "noticias/espana/deportes/2026-06-19-mercado-de-fichajes-de-hoy-19-de-junio-en-directo-altas-baja.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-19-us-lifts-naval-blockade-as-iran-s-supreme-leader-says-trump-.html"
+      "noticias/internacional/economia/2026-06-19-us-iran-talks-postponed-as-vance-pulls-out-of-switzerland-tr.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-19-mexico-rejoice-after-second-world-cup-win-in-2026-.html"
     ]
   }
 }
