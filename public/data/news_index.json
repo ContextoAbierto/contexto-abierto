@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-20-peinado-abre-una-pieza-en-el-caso-bego-a-g-mez-contra-barrab.html"
+      "noticias/espana/politica/2026-06-20-el-juez-peinado-abre-juicio-oral-a-bego-a-g-mez-le-retira-el.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-20-el-informe-de-la-uco-sobre-la-pareja-de-ayuso-apunta-a-relac.html"
+      "noticias/espana/economia/2026-06-20-peinado-env-a-a-juicio-a-bego-a-g-mez-le-retira-el-pasaporte.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-20-diez-d-as-para-cuadrar-cuentas.html"
+      "noticias/espana/deportes/2026-06-20-el-villarreal-vuelve-a-marcar-en-un-mundial-ocho-a-os-despu-.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-20-israel-and-hezbollah-agree-ceasefire-us-says-as-more-lebanon.html"
+      "noticias/internacional/economia/2026-06-20-israel-and-hezbollah-continue-strikes-despite-ceasefire-agre.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-20-if-there-was-a-time-to-dream-big-about-about-the-u-.html"
     ]
   }
 }
