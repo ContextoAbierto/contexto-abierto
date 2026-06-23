@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-23-el-supremo-critica-que-los-comportamientos-atribuidos-a-balo.html"
+      "noticias/espana/politica/2026-06-23-zapatero-ve-motivos-de-nulidad-en-dispositivos-analizados-qu.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-23-el-supremo-premia-la-aportaci-n-de-aldama-para-descubrir-uno.html"
+      "noticias/espana/economia/2026-06-23-zapatero-quiere-saber-si-se-analizaron-dispositivos-incautad.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-23-danjuma-ya-juega-su-partido-la-mls-huye-tras-pedirle-un-cont.html"
+      "noticias/espana/deportes/2026-06-23-las-negociaciones-por-deossa-y-altimira-marcan-el-mercado-de.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-23-iran-says-no-new-commitments-on-nuclear-sites-after-vance-sa.html"
+      "noticias/internacional/economia/2026-06-23-drowning-deaths-soar-in-france-as-europe-buckles-in-peak-of-.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-23-grades-for-both-sides-of-the-giannis-trade-winner-.html"
     ]
   }
 }
