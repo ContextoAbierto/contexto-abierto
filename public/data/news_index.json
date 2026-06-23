@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-22-el-supremo-condena-a-balos-a-24-a-os-de-c-rcel-a-19-a-koldo-.html"
+      "noticias/espana/politica/2026-06-23-el-supremo-condena-a-balos-a-24-a-os-de-c-rcel-a-19-a-koldo-.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-22-el-supremo-condena-a-balos-a-24-a-os-de-c-rcel-y-libra-a-ald.html"
+      "noticias/espana/economia/2026-06-23-el-supremo-condena-a-balos-a-24-a-os-de-c-rcel-y-libra-a-ald.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-22-el-getafe-contin-a-construyendo-el-futuro-en-su-nueva-campa-.html"
+      "noticias/espana/deportes/2026-06-23-el-getafe-contin-a-construyendo-el-futuro-en-su-nueva-campa-.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-22-vance-says-iran-will-allow-nuclear-inspectors-back-into-the-.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-06-22-32-teams-32-surprises-which-players-stood-out-on-.html"
+      "noticias/internacional/economia/2026-06-23-us-eases-oil-sanctions-as-iran-denies-vance-claim-on-nuclear.html"
     ]
   }
 }
