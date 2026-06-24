@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-23-felipe-gonz-lez-ve-bien-la-sentencia-contra-balos-y-dice-sob.html"
+      "noticias/espana/politica/2026-06-24-felipe-gonz-lez-ve-bien-la-sentencia-contra-balos-y-dice-sob.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-23-zapatero-quiere-saber-si-se-analizaron-dispositivos-incautad.html"
+      "noticias/espana/economia/2026-06-24-zapatero-quiere-saber-si-se-analizaron-dispositivos-incautad.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-23-las-negociaciones-por-deossa-y-altimira-marcan-el-mercado-de.html"
+      "noticias/espana/deportes/2026-06-24-las-negociaciones-por-deossa-y-altimira-marcan-el-mercado-de.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-23-drowning-deaths-soar-in-france-as-europe-buckles-in-peak-of-.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-06-23-two-round-nba-mock-draft-latest-intel-on-the-lott-.html"
+      "noticias/internacional/economia/2026-06-24-drowning-deaths-soar-in-france-as-europe-buckles-in-peak-of-.html"
     ]
   }
 }
