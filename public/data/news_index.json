@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-24-felipe-gonz-lez-ve-bien-la-sentencia-contra-balos-y-dice-sob.html"
+      "noticias/espana/politica/2026-06-24-s-nchez-niega-corrupci-n-generalizada-en-espa-a-y-descarta-e.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-24-zapatero-quiere-saber-si-se-analizaron-dispositivos-incautad.html"
+      "noticias/espana/economia/2026-06-24-s-nchez-desvincula-el-caso-zapatero-del-gobierno-y-defiende-.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-24-las-negociaciones-por-deossa-y-altimira-marcan-el-mercado-de.html"
+      "noticias/espana/deportes/2026-06-24-aritz-elustondo-muy-cerca-del-paok-sal-nica.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-24-drowning-deaths-soar-in-france-as-europe-buckles-in-peak-of-.html"
+      "noticias/internacional/economia/2026-06-24-france-braces-for-another-day-of-sweltering-heat-as-europe-h.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-24-biggest-winners-and-question-marks-from-roun-.html"
     ]
   }
 }
