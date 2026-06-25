@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-25-aumentan-a-164-los-muertos-y-casi-un-millar-los-heridos-por-.html"
+      "noticias/espana/politica/2026-06-25-al-menos-188-muertos-y-m-s-de-1-500-los-heridos-por-el-doble.html"
     ],
     "economia": [
       "noticias/espana/economia/2026-06-25-dos-potentes-terremotos-de-7-2-y-7-5-golpean-venezuela-y-pro.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-25-el-sevilla-atento-al-futuro-de-lukebakio-en-el-mercado.html"
+      "noticias/espana/deportes/2026-06-25-suazo-he-aprendido-a-liderar-dejando-todo-en-cada-pelota-.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-25--i-thought-i-was-going-to-die-venezuelans-describe-earthquak.html"
+      "noticias/internacional/economia/2026-06-25-earthquake-is-devastating-blow-to-venezuela-at-time-of-uncer.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-25-lamelo-ball-traded-to-minnesota-which-team-gets-a-.html"
     ]
   }
 }
