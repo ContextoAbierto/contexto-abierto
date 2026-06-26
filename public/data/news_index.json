@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-26-aumentan-a-235-los-muertos-y-a-m-s-de-4-300-los-heridos-por-.html"
+      "noticias/espana/politica/2026-06-26-aumentan-a-589-los-muertos-por-los-terremotos-en-venezuela.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-26-desolaci-n-e-incertidumbre-en-venezuela-que-suma-ya-235-muer.html"
+      "noticias/espana/economia/2026-06-26-desolaci-n-e-incertidumbre-en-venezuela-que-suma-ya-589-muer.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-26-beitia-y-carrera-los-aspirantes-del-verano-2026.html"
+      "noticias/espana/deportes/2026-06-26-el-betis-sondea-a-matanovic.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-26-rescuers-search-rubble-for-survivors-as-venezuela-earthquake.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-06-26-usmnt-must-heed-world-cup-lessons-learned-in-loss-.html"
+      "noticias/internacional/economia/2026-06-26-earthquake-is-devastating-blow-to-venezuela-at-time-of-uncer.html"
     ]
   }
 }
