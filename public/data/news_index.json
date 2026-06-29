@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-28--g-nova-se-desmarca-de-aldama-es-un-delincuente-con-una-sent.html"
+      "noticias/espana/politica/2026-06-29--g-nova-se-desmarca-de-aldama-es-un-delincuente-con-una-sent.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-28-feij-o-en-la-rueda-de-rat-n-de-la-moci-n-de-censura.html"
+      "noticias/espana/economia/2026-06-29-feij-o-en-la-rueda-de-rat-n-de-la-moci-n-de-censura.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-28-aritz-ya-posa-como-jugador-del-paok.html"
+      "noticias/espana/deportes/2026-06-29-aritz-ya-posa-como-jugador-del-paok.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-28-two-boys-rescued-from-venezuela-earthquake-rubble-after-days.html"
+      "noticias/internacional/economia/2026-06-29-two-boys-pulled-from-venezuela-earthquake-rubble-among-33-pe.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-29-sources-suns-land-bridges-in-deal-with-hornets.html"
     ]
   }
 }
