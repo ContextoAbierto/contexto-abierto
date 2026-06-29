@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-29-la-secretaria-de-zapatero-se-acoge-a-su-derecho-a-no-declara.html"
+      "noticias/espana/politica/2026-06-29-el-juez-imputa-a-la-presidenta-de-la-sepi-y-a-otras-24-perso.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-29-la-causa-contra-zapatero-se-expande-entre-acusaciones-de-nul.html"
+      "noticias/espana/economia/2026-06-29-el-juez-del-caso-leire-imputa-a-la-presidenta-de-la-sepi-y-a.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-29-pacto-de-vestuario-un-a-o-juntos-en-primera.html"
+      "noticias/espana/deportes/2026-06-29-megaoperativo-en-argentina-golpea-al-mercado-ilegal-de-tv-bo.html"
     ]
   },
   "internacional": {
     "economia": [
       "noticias/internacional/economia/2026-06-29-mum-rescued-from-venezuela-rubble-with-newborn-baby-tells-bb.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-06-29-sources-suns-land-bridges-in-deal-with-hornets.html"
     ]
   }
 }
