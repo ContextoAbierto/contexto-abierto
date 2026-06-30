@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-29-el-juez-imputa-a-la-presidenta-de-la-sepi-y-a-otras-24-perso.html"
+      "noticias/espana/politica/2026-06-30-el-juez-imputa-a-la-presidenta-de-la-sepi-y-a-otras-24-perso.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-29-el-juez-pedraz-imputa-a-la-presidenta-de-la-sepi-y-a-otras-2.html"
+      "noticias/espana/economia/2026-06-30-el-juez-pedraz-imputa-a-la-presidenta-de-la-sepi-y-a-otras-2.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-29-oficial-nico-paz-se-queda-otra-temporada-en-el-como.html"
+      "noticias/espana/deportes/2026-06-30-la-alineaci-n-ideal-y-los-chollos-del-mundial.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-29-mum-rescued-from-venezuela-rubble-with-newborn-baby-tells-bb.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-06-29-evel-knievel-chuck-yeager-and-the-daredevil-that-.html"
+      "noticias/internacional/economia/2026-06-30-aftershock-frays-nerves-as-many-venezuelans-left-to-fend-for.html"
     ]
   }
 }
