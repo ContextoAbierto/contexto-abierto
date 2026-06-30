@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-06-30-el-juez-imputa-a-la-presidenta-de-la-sepi-y-a-otras-24-perso.html"
+      "noticias/espana/politica/2026-06-30-el-supremo-propone-llevar-al-tjue-la-regularizaci-n-de-migra.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-06-30-el-juez-pedraz-imputa-a-la-presidenta-de-la-sepi-y-a-otras-2.html"
+      "noticias/espana/economia/2026-06-30-el-supremo-considera-que-la-regularizaci-n-de-migrantes-podr.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-06-30-la-alineaci-n-ideal-y-los-chollos-del-mundial.html"
+      "noticias/espana/deportes/2026-06-30-djen-dakonam-renueva-con-el-getafe-hasta-2027.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-06-30-aftershock-frays-nerves-as-many-venezuelans-left-to-fend-for.html"
+      "noticias/internacional/economia/2026-06-30-angry-venezuelans-accuse-government-of-negligence-over-earth.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-06-30-it-s-official-germany-are-no-longer-a-soccer-supe-.html"
     ]
   }
 }
