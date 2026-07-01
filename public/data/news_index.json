@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-07-01-el-juez-cita-como-testigos-el-15-de-julio-a-los-excargos-de-.html"
+      "noticias/espana/politica/2026-07-01-el-pp-solicita-al-juez-la-imputaci-n-de-la-directora-de-la-g.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-07-01-lara-hern-ndez-dimite-de-sus-cargos-en-movimiento-sumar-tras.html"
+      "noticias/espana/economia/2026-07-01-ayuso-va-m-s-all-en-sus-insinuaciones-de-pucherazo-por-el-vo.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-07-01-loren-juarros-hemos-ascendido-pero-no-vamos-a-hipotecar-al-m.html"
+      "noticias/espana/deportes/2026-07-01-ximo-y-el-deportivo-seguir-n-de-la-mano-renueva-hasta-2027.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-07-01-three-die-in-mexico-city-world-cup-celebrations.html"
+      "noticias/internacional/economia/2026-07-01--time-for-him-to-pay-carroll-calls-on-trump-to-pay-5m-after-.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-07-01-harry-kane-delivers-for-england-at-vital-moment-in-.html"
     ]
   }
 }
