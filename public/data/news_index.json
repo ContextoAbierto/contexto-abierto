@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-07-02-el-pp-solicita-al-juez-la-imputaci-n-de-la-directora-de-la-g.html"
+      "noticias/espana/politica/2026-07-02-primeros-datos-del-proceso-de-regularizaci-n-1-17-millones-d.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-07-02-ayuso-va-m-s-all-en-sus-insinuaciones-de-pucherazo-por-el-vo.html"
+      "noticias/espana/economia/2026-07-02-la-regularizaci-n-de-migrantes-se-cierra-con-casi-1-2-millon.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-07-02-leo-petrot-finaliza-su-etapa-en-el-elche.html"
+      "noticias/espana/deportes/2026-07-02-el-m-laga-vigila-al-atl-tico-por-adrian-ni-o.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-07-02-aunt-of-venezuelan-boy-pulled-from-rubble-tells-bbc-she-will.html"
+      "noticias/internacional/economia/2026-07-02-at-least-13-killed-in-large-scale-russian-missile-and-drone-.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-07-02-usmnt-s-multifaceted-win-bodes-well-for-world-cup-.html"
     ]
   }
 }
