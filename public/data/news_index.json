@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-07-02-primeros-datos-del-proceso-de-regularizaci-n-1-17-millones-d.html"
+      "noticias/espana/politica/2026-07-02-el-juez-del-caso-leire-imputa-a-la-directora-de-la-guardia-c.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-07-02-la-regularizaci-n-de-migrantes-se-cierra-con-casi-1-2-millon.html"
+      "noticias/espana/economia/2026-07-02-el-juez-pedraz-cita-como-investigada-a-la-directora-general-.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-07-02-el-m-laga-vigila-al-atl-tico-por-adrian-ni-o.html"
+      "noticias/espana/deportes/2026-07-02-el-getafe-cierra-la-cesi-n-de-jean-yves-valou.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-07-02-at-least-13-killed-in-large-scale-russian-missile-and-drone-.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-07-02-usmnt-s-multifaceted-win-bodes-well-for-world-cup-.html"
+      "noticias/internacional/economia/2026-07-02-venezuela-quake-survivor-pulled-out-alive-after-eight-days.html"
     ]
   }
 }
