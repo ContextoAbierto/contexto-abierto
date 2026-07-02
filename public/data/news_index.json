@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-07-02-el-juez-del-caso-leire-imputa-a-la-directora-de-la-guardia-c.html"
+      "noticias/espana/politica/2026-07-02-f-tbol-mundial-sigue-en-directo-el-espa-a-austria-comienza-e.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-07-02-el-juez-pedraz-cita-como-investigada-a-la-directora-general-.html"
+      "noticias/espana/economia/2026-07-02-moreno-investido-presidente-de-andaluc-a-tras-un-pacto-con-v.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-07-02-el-getafe-cierra-la-cesi-n-de-jean-yves-valou.html"
+      "noticias/espana/deportes/2026-07-02-el-sporting-cp-se-pone-duro-con-hjulmand-el-jugador-sabe-cu-.html"
     ]
   },
   "internacional": {
     "economia": [
       "noticias/internacional/economia/2026-07-02-venezuela-quake-survivor-pulled-out-alive-after-eight-days.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-07-02-follow-live-spain-take-on-austria-in-round-of-32-.html"
     ]
   }
 }
