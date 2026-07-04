@@ -1,7 +1,7 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-07-04-el-papa-rinde-homenaje-en-lampedusa-a-los-migrantes-fallecid.html"
+      "noticias/espana/politica/2026-07-04-el-orgullo-2026-de-madrid-re-ne-a-una-multitudinaria-marea-a.html"
     ],
     "economia": [
       "noticias/espana/economia/2026-07-04-trump-se-apropia-del-250-aniversario-de-eeuu-para-imponer-su.html"
@@ -12,7 +12,10 @@
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-07-04-taylor-swift-marries-travis-kelce-in-nyc-ceremony-officiated.html"
+      "noticias/internacional/economia/2026-07-04-brutal-heat-cancels-fourth-of-july-events-from-dc-to-philade.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-07-04-world-cup-live-morocco-reach-quarterfinals-after-.html"
     ]
   }
 }
