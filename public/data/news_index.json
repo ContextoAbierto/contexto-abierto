@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-07-05-el-orgullo-2026-de-madrid-re-ne-a-una-multitudinaria-marea-a.html"
+      "noticias/espana/politica/2026-07-05-moreno-promete-ser-fiel-a-la-v-a-andaluza-del-di-logo-tras-p.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-07-05-el-orgullo-llena-la-calle-frente-a-la-ofensiva-reaccionaria-.html"
+      "noticias/espana/economia/2026-07-05-carlos-cuerpo-la-vivienda-es-la-gran-prioridad-pero-no-hay-u.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-07-05-kaares-un-fichaje-de-altura-para-el-villarreal.html"
+      "noticias/espana/deportes/2026-07-05-el-celta-vuelve-al-trabajo-el-martes.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-07-05-brutal-heat-cancels-fourth-of-july-events-from-dc-to-philade.html"
+      "noticias/internacional/economia/2026-07-05-us-marks-250th-birthday-with-fireworks-flyovers-and-extreme-.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-07-05-france-pass-toughest-world-cup-test-yet-in-beating-.html"
     ]
   }
 }
