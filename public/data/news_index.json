@@ -1,21 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-07-11-merino-manda-al-infierno-a-los-diablos.html"
+      "noticias/espana/politica/2026-07-11-incendio-los-gallardos-almer-a-directo-el-incendio-afecta-ya.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-07-11-en-la-zona-cero-de-la-tragedia-de-almer-a-a-n-no-hemos-local.html"
+      "noticias/espana/economia/2026-07-11--ltima-hora-del-incendio-de-almer-a-el-fuego-avanz-100-metro.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-07-11-la-negociaci-n-para-la-venta-de-akor-adams-al-venezia-en-la-.html"
+      "noticias/espana/deportes/2026-07-11-marcos-alonso-ten-a-alg-n-sitio-para-un-retiro-dorado-pero-a.html"
     ]
   },
   "internacional": {
     "economia": [
       "noticias/internacional/economia/2026-07-11-us-wants-iran-to-pledge-to-stop-shooting-at-ships-in-strait-.html"
-    ],
-    "deportes": [
-      "noticias/internacional/deportes/2026-07-11-the-mlb-draft-is-here-kiley-mcdaniel-predicts-the-.html"
     ]
   }
 }
