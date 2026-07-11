@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-07-10-doce-muertos-y-23-no-localizados-en-el-incendio-de-los-galla.html"
+      "noticias/espana/politica/2026-07-11-merino-manda-al-infierno-a-los-diablos.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-07-10-al-menos-12-muertos-en-el-incendio-de-los-gallardos-en-almer.html"
+      "noticias/espana/economia/2026-07-11-al-menos-12-muertos-en-el-incendio-de-los-gallardos-en-almer.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-07-10-luis-miguel-ramis-inicia-en-osasuna-con-un-mensaje-claro-no-.html"
+      "noticias/espana/deportes/2026-07-11-luis-miguel-ramis-inicia-en-osasuna-con-un-mensaje-claro-no-.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-07-10-wildfire-in-southern-spain-leaves-at-least-12-dead-and-23-mi.html"
+      "noticias/internacional/economia/2026-07-11-us-wants-iran-to-pledge-to-stop-shooting-at-ships-in-strait-.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-07-11-what-lebron-james-could-sign-for-with-six-teams-a-.html"
     ]
   }
 }
