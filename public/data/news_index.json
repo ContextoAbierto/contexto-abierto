@@ -1,10 +1,10 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-07-12-incendio-los-gallardos-almer-a-directo-el-incendio-afecta-ya.html"
+      "noticias/espana/politica/2026-07-12-incendio-los-gallardos-almer-a-directo-la-guardia-civil-obti.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-07-12-los-bomberos-aprovechan-la-falta-de-viento-y-la-humedad-para.html"
+      "noticias/espana/economia/2026-07-12-el-calor-dispara-las-muertes-en-espa-a-a-cifras-sin-preceden.html"
     ],
     "deportes": [
       "noticias/espana/deportes/2026-07-12-miguel-sierra-decide-el-primer-amistoso-del-sevilla.html"
@@ -13,6 +13,9 @@
   "internacional": {
     "economia": [
       "noticias/internacional/economia/2026-07-12-us-launches-fresh-strikes-as-iran-closes-strait-of-hormuz.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-07-12-magic-from-lvarez-not-messi-sees-argentina-thro-.html"
     ]
   }
 }
