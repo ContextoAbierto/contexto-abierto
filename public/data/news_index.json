@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-07-12-el-incendio-forestal-de-los-gallardos-almer-a-queda-estabili.html"
+      "noticias/espana/politica/2026-07-13-ascienden-a-13-los-fallecidos-por-el-incendio-de-los-gallard.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-07-12-trump-desata-el-caos-con-nuevos-ataques-sobre-ir-n-insultos-.html"
+      "noticias/espana/economia/2026-07-13-trump-desata-el-caos-con-nuevos-ataques-sobre-ir-n-insultos-.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-07-12-el-getafe-pendiente-del-futuro-de-greenwood.html"
+      "noticias/espana/deportes/2026-07-13-el-valencia-mueve-ficha-por-kayne-van-oevelen-portero-del-vo.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-07-12-us-insists-strait-of-hormuz-is-open-as-it-exchanges-strikes-.html"
+      "noticias/internacional/economia/2026-07-13-at-least-27-killed-in-bangkok-bar-fire.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-07-13-sources-u-m-regents-to-decide-on-ad-manuel-soon.html"
     ]
   }
 }
