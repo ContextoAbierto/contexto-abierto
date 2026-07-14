@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-07-14-la-audiencia-provincial-de-badajoz-condena-al-hermano-de-ped.html"
+      "noticias/espana/politica/2026-07-14-sigue-en-directo-el-francia-espa-a-comienza-el-partido-en-da.html"
     ],
     "economia": [
       "noticias/espana/economia/2026-07-14-la-justicia-condena-al-hermano-de-pedro-s-nchez-a-nueve-a-os.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-07-14-zubeldia-s-que-la-pasada-no-fue-mi-mejor-campa-a-y-quiero-da.html"
+      "noticias/espana/deportes/2026-07-14-la-asociaci-n-futbolistas-vcf-transfiere-al-hospital-de-lubo.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-07-14-bangkok-fire-investigation-finds-locked-doors-and-flammable-.html"
+      "noticias/internacional/economia/2026-07-14-trump-scraps-threat-of-20-fee-on-hormuz-cargo-as-us-prepares.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-07-14-live-updates-france-spain-meet-with-world-cup-fi-.html"
     ]
   }
 }
