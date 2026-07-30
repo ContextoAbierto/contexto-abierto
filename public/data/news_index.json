@@ -1,13 +1,18 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-07-30-incendios-en-espa-a-hoy-en-directo-ltima-hora-en-madrid-vila.html"
+      "noticias/espana/politica/2026-07-30-cientos-de-personas-cruzan-a-nado-a-ceuta-desde-marruecos-co.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-07-30--ltima-hora-de-los-incendios-en-espa-a-los-avances-contra-el.html"
+      "noticias/espana/economia/2026-07-30-el-gobierno-de-ayuso-rectifica-y-dice-que-vender-el-tico-de-.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-07-30-el-valencia-presenta-su-segunda-equipaci-n-para-la-temporada.html"
+      "noticias/espana/deportes/2026-07-30-castr-n-juanlu-y-alfon-en-la-lista-de-28-citados-para-viajar.html"
+    ]
+  },
+  "internacional": {
+    "economia": [
+      "noticias/internacional/economia/2026-07-30-us-launches-heavy-strikes-on-iran-after-attempted-attack-on-.html"
     ]
   }
 }
