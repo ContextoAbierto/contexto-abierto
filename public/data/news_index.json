@@ -1,18 +1,15 @@
 {
   "espana": {
-    "politica": [
-      "noticias/espana/politica/2026-09-18-detenido-el-presunto-responsable-del-asesinato-de-la-estudia.html"
-    ],
     "economia": [
-      "noticias/espana/economia/2026-09-18-el-gobierno-de-ayuso-reconoce-ahora-que-el-tico-se-compr-par.html"
+      "noticias/espana/economia/2026-09-18-en-marcha-el-traslado-de-migrantes-al-puerto-de-ceuta-querem.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-09-18-i-igo-p-rez-hoy-s-que-voy-a-poder-dormir-.html"
+      "noticias/espana/deportes/2026-09-18-sangante-con-el-grupo-en-la-previa-del-partido-ante-el-barce.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-09-18-canada-welcomes-eu-proposal-to-become-associate-member-.html"
+      "noticias/internacional/economia/2026-09-18-three-dead-and-eight-injured-in-philippines-school-shooting.html"
     ]
   }
 }
