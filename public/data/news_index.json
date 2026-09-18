@@ -1,15 +1,18 @@
 {
   "espana": {
+    "politica": [
+      "noticias/espana/politica/2026-09-18-el-gobierno-calcula-que-quedan-en-ceuta-unos-10-000-inmigran.html"
+    ],
     "economia": [
-      "noticias/espana/economia/2026-09-18-en-marcha-el-traslado-de-migrantes-al-puerto-de-ceuta-querem.html"
+      "noticias/espana/economia/2026-09-18-concluye-el-traslado-de-1-700-migrantes-al-puerto-de-ceuta-q.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-09-18-sangante-con-el-grupo-en-la-previa-del-partido-ante-el-barce.html"
+      "noticias/espana/deportes/2026-09-18-laliga-denuncia-insultos-contra-el-madrid-osasuna-sevilla-y-.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-09-18-three-dead-and-eight-injured-in-philippines-school-shooting.html"
+      "noticias/internacional/economia/2026-09-18-russian-hybrid-attacks-against-europe-intensifying-says-macr.html"
     ]
   }
 }
