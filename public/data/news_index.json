@@ -1,18 +1,21 @@
 {
   "espana": {
     "politica": [
-      "noticias/espana/politica/2026-11-26-s-nchez-feij-o-abascal-y-colau-se-miden-este-jueves-en-un-de.html"
+      "noticias/espana/politica/2026-11-26-pablo-hern-ndez-de-cos-primer-espa-ol-que-presidir-el-bce-an.html"
     ],
     "economia": [
-      "noticias/espana/economia/2026-11-26-el-25n-se-planta-contra-el-negacionismo-machista-y-la-amenaz.html"
+      "noticias/espana/economia/2026-11-26-el-espa-ol-pablo-hern-ndez-de-cos-elegido-presidente-del-bce.html"
     ],
     "deportes": [
-      "noticias/espana/deportes/2026-11-26-terrats-estamos-muy-motivados-por-jugar-la-conference-league.html"
+      "noticias/espana/deportes/2026-11-26-loren-juarros-no-me-arrepiento-de-lo-que-he-hecho-.html"
     ]
   },
   "internacional": {
     "economia": [
-      "noticias/internacional/economia/2026-11-26-us-announces-new-tariffs-on-host-of-countries-including-chin.html"
+      "noticias/internacional/economia/2026-11-26-german-boat-dealer-suspected-of-supplying-channel-smuggling-.html"
+    ],
+    "deportes": [
+      "noticias/internacional/deportes/2026-11-26-how-did-things-get-so-bad-for-aaron-rodgers-and-mike-mccarth.html"
     ]
   }
 }
